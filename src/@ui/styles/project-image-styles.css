@@ -1,0 +1,28 @@
+.tesla-image {
+  transition: transform 0.2s ease-out;
+  position: absolute;
+  height: 80vh;
+}
+
+.lock {
+  bottom: -55vh;
+  right: 5vw;
+  filter: blur(1.2px);
+}
+
+.battery {
+  bottom: -75vh;
+  left: 2vw;
+  filter: blur(0.8px);
+}
+
+.tyre {
+  bottom: -45vh;
+  right: 2vw;
+  filter: blur(0.6px);
+}
+
+.heat {
+  bottom: -90vh;
+  left: 0vw;
+}

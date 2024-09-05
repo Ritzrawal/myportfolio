@@ -1,0 +1,88 @@
+.text-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 100%;
+}
+
+.project-name {
+  font-family: 'AvenirHeavy';
+}
+
+.project-desc,
+.my-role {
+  font-family: 'AvenirBook';
+}
+
+.my-role {
+  padding-top: 5%;
+  font-family: 'AvenirMedium';
+}
+
+.project-id,
+.project-type {
+  font-family: 'AvenirHeavy';
+  padding: 5%;
+}
+
+.project-details-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 5%;
+  height: 100%;
+}
+
+.project-details {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 5%;
+}
+
+.block-text-reveal {
+  display: inline;
+  color: #FFF;
+  position: relative;
+}
+
+.block-text-reveal.quick::after {
+  content: '';
+  top: 0;
+  left: 0;
+  position: absolute;
+  width: 0%;
+  height: 100%;
+  background: #222;
+  animation: revBlock 1s cubic-bezier(0.19, 1, 0.22, 1) forwards;
+  animation-delay: 0s;
+}
+
+.block-text-reveal.noAnim::after {
+  content: '';
+  top: 0;
+  left: 0;
+  position: absolute;
+  width: 0%;
+  height: 100%;
+  background: #222;
+  animation: none;
+}
+
+@keyframes revBlock {
+  0% {
+    left: 0;
+    width: 0%;
+  }
+  50% {
+    left: 0%;
+    width: 100%;
+  }
+  100% {
+    left: 100%;
+    width: 0%;
+  }
+}
