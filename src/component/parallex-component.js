@@ -6,35 +6,9 @@ import React, { useRef, useState, useEffect } from "react";
 import IMagesValue from "./project-image";
 import ImageContent from "./project-image-container";
 
-// import Share from "../assets/projects/sharelook-image/lesson.png";
-import {
-  ShareLookTraning,
-  ShareLookLesson,
-  ShareLookLiveStream,
-} from "../assets";
+import { ContentData } from "../helper/data";
 
-const data = [
-  {
-    id: "1",
-    title: "ABOUT ME",
-    componentType: "headers",
-  },
-  {
-    id: "2",
-    title: "PROJECTS",
-    componentType: "Projects",
-  },
-  {
-    id: "3",
-    title: "About",
-    componentType: "About",
-  },
-  {
-    id: "4",
-    title: "SKILLS",
-    componentType: "header",
-  },
-];
+// import Share from "../assets/projects/sharelook-image/lesson.png";
 
 const ParallexPage = ({ Content }) => {
   const contentRef = useRef(null);
@@ -72,7 +46,7 @@ const ParallexPage = ({ Content }) => {
   return (
     <div id="workCTN">
       <div id="portbox" className="parallax">
-        {data.map((item, index) => {
+        {ContentData.map((item, index) => {
           return (
             <div
               key={index}
@@ -84,7 +58,6 @@ const ParallexPage = ({ Content }) => {
                   <h1 className={`title ${isScrolledToBottom ? "hidden" : ""}`}>
                     {item.title}
                   </h1>
-                  {/* <div>{Content}</div> */}
                   <DynamicComponent key={index} component={item} />
                 </div>
               </div>

@@ -1,9 +1,12 @@
 import React from "react";
 import "../@ui/styles/wireframe-styles.css";
 
-const IOSWireframe = ({ image }) => {
+const IOSWireframe = ({ image, IphoneHeight, IphoneWidth }) => {
   return (
-    <div className="iphone-15-pro-max">
+    <div
+      className="iphone-15-pro-max"
+      style={{ height: IphoneHeight || 600, width: IphoneWidth || 340 }}
+    >
       <div className="top-notch"></div>
       <div className="volume-buttons">
         <div className="volume-button"></div>
