@@ -1,10 +1,11 @@
 import "../@ui/styles/parallex.css";
 import IOSWireframe from "./wireframe-componnet";
-import AboutUS from "./demoparallex";
 
 import React, { useRef, useState, useEffect } from "react";
 import IMagesValue from "./project-image";
-import ImageContent from "./project-image-container";
+import { AboutMeScreen } from "../screen";
+
+import ProjectDetails from "../screen/project-work";
 
 import { ContentData } from "../helper/data";
 
@@ -32,10 +33,10 @@ const ParallexPage = ({ Content }) => {
   }, []);
 
   const components = {
-    header: IOSWireframe,
-    Projects: IMagesValue,
-    Aboutus: AboutUS,
-    // paragraph: Paragraph,
+    aboutme: AboutMeScreen,
+    myprojects: ProjectDetails,
+    // myskills: IMagesValue,
+    // contact: AboutUS,
   };
 
   const DynamicComponent = ({ component }) => {

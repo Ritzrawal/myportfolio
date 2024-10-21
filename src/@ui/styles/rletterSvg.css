@@ -1,11 +1,11 @@
 .logo-mask {
-  position: absolute;
+  /* position: absolute; */
   -webkit-transform-style: preserve-3d;
   transform-style: preserve-3d;
-  top: 50%;
+  /* top: 50%; */
   -webkit-transform: translateY(-50%);
   transform: translateY(-50%);
-  left: 40%;
+  /* left: 40%; */
   opacity: .6;
   z-index: 3;
 }
@@ -73,7 +73,7 @@
 }
 
 .st1 {
-  clip-path: url(#XMLID_11_);
+  clipPath: url(#XMLID_11_);
   fill: none;
   stroke: url(#XMLID_12_);
   stroke-width: 70.344;

@@ -1,5 +1,4 @@
 import React from "react";
-import IOSWireframe from "./wireframe-componnet";
 import "../@ui/styles/project-image-styles.css";
 import {
   ShareLookTraning,
@@ -21,7 +20,6 @@ const ProjectImages = ({
 
   return (
     <>
-      <IOSWireframe image={ShareLookTraning} />
       <img
         src={ShareLookTraning}
         className="tesla-image lock"

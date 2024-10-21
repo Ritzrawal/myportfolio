@@ -1,10 +1,9 @@
 import React, { useEffect, useRef, useState } from "react";
 import "../@ui/styles/aboutme-styles.css"; // Assuming you are using plain CSS
 
-import ProjectImages from "../component/project-image";
 const AboutMeScreen = () => {
-  const [isVisible, setIsVisible] = useState(false);
   const textRef = useRef(null);
+  const [isVisible, setIsVisible] = useState(false);
 
   useEffect(() => {
     const observer = new IntersectionObserver(
@@ -36,7 +35,6 @@ const AboutMeScreen = () => {
         className={`about-me-content ${isVisible ? "slide-in" : ""}`}
         ref={textRef}
       >
-        <h1>About Me</h1>
         <p>
           Hi there, this is Ritesh. I know cool stuff in React.js, Node.js,
           JavaScript, MongoDB, Express.js, C++, Core Java, HTML5, CSS3, and
