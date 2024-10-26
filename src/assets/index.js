@@ -13,7 +13,22 @@ import ChoiceRemitbank from "./projects/choiceremit-image/choiceremit-app2.webp"
 import ChoiceRemitAmount from "./projects/choiceremit-image/choiceremit-app3.webp";
 import ChoiceRemitSend from "./projects/choiceremit-image/choiceremit-app4.webp";
 
+import FrimPayFront from "./projects/firmpay-image/firmpayapp.webp";
+
+import PesaDirect from "./projects/transfapay/pesadirectmobile.webp";
+import TransfaPayApp from "./projects/transfapay/transafapaytxn.webp";
+import AidemoneyApp from "./projects/transfapay/aidemoneyhome.webp";
+
+import IphoneFrame from "./projects/device-iphone14.png";
+import MacBookFrame from "./projects/device-mbp-15-nonotch.png";
+
 export {
+  PesaDirect,
+  TransfaPayApp,
+  IphoneFrame,
+  MacBookFrame,
+  FrimPayFront,
+  AidemoneyApp,
   ChoiceRemitLogo,
   ChoiceRemitFront,
   ChoiceRemitHome,

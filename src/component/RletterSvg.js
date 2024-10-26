@@ -31,8 +31,8 @@ const RSvgLogo = () => {
             y2="333.156"
             gradientTransform="matrix(1 0 0 -1 156 491)"
           >
-            <stop offset="0" stopColor="#23074d"></stop>
-            <stop offset="1" stopColor="#cc5333"></stop>
+            <stop offset="0" stopColor="#FF7F50"></stop>
+            <stop offset="1" stopColor="#00FFFF"></stop>
           </linearGradient>
           <path
             id="XMLID_3_"
@@ -62,8 +62,8 @@ const RSvgLogo = () => {
               y2="354.122"
               gradientTransform="matrix(1 0 0 -1 156 491)"
             >
-              <stop offset="0" stopColor="#23074d"></stop>
-              <stop offset="1" stopColor="#cc5333"></stop>
+              <stop offset="0" stopColor="#FF7F50 "></stop>
+              <stop offset="1" stopColor="#00FFFF"></stop>
             </linearGradient>
             <path
               id="XMLID_1_"

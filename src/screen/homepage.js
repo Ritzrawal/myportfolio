@@ -7,6 +7,8 @@ import ProfessionalScreen from "./professional-screen";
 import SkillsPage from "./skills-page";
 import ContactPage from "./contact-page";
 
+import ProjectDetails from "./project-work";
+
 const Homepage = () => {
   const [loading, setLoading] = useState(true);
 
@@ -33,7 +35,8 @@ const Homepage = () => {
   return (
     <>
       <ProfessionalScreen />
-      <WorkListDetails />
+      {/* <WorkListDetails /> */}
+      <ProjectDetails />
       <SkillsPage />
       <ContactPage />
     </>

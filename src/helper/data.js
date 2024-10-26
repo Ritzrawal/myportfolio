@@ -1,4 +1,8 @@
 import {
+  PesaDirect,
+  AidemoneyApp,
+  FrimPayFront,
+  TransfaPayApp,
   ChoiceRemitHome,
   ChoiceRemitLogo,
   ChoiceRemitFront,
@@ -195,5 +199,131 @@ export const educationData = [
     institution: "Tech Institute",
     startDate: "September 2021",
     endDate: "June 2023",
+  },
+];
+
+export const data = [
+  {
+    title: "ChoiceRemit Mobile App",
+    description:
+      "You can send money directly to a bank account, or for a cash pick-up, around the world using Firmpay. All you have to do is register, link your bank account or a debit card and provide receivers details. In just a few simple steps, your transfer will be on its way to your recipient!",
+    imageUrl: ChoiceRemitFront,
+    logos: [
+      "https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg", // Book icon
+      "https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png", // Graduation cap
+      "https://iphoneros.com/wp-content/uploads/2023/12/xocdeoijew.png",
+      "https://cdn.worldvectorlogo.com/logos/redux.svg",
+      "https://upload.wikimedia.org/wikipedia/en/3/30/Java_programming_language_logo.svg",
+      "https://upload.wikimedia.org/wikipedia/commons/f/fa/App_Store_iOS_icon.svg",
+    ],
+    playstore:
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTn-RsGSnFAr00Dzhk6MZXlXQcC7vVZLaSxEg&s",
+    appstore:
+      "https://w7.pngwing.com/pngs/244/614/png-transparent-app-store-application-icon-blue-computer-icon-area-text-app-store-blue-text-trademark.png",
+  },
+  {
+    title: "FirmPay Mobile App",
+    description:
+      "You can send money directly to a bank account, or for a cash pick-up, around the world using Firmpay. All you have to do is register, link your bank account or a debit card and provide receivers details. In just a few simple steps, your transfer will be on its way to your recipient!",
+    imageUrl: FrimPayFront,
+    logos: [
+      "https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg", // Book icon
+      "https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png", // Graduation cap
+      "https://iphoneros.com/wp-content/uploads/2023/12/xocdeoijew.png",
+      "https://cdn.worldvectorlogo.com/logos/redux.svg",
+      "https://upload.wikimedia.org/wikipedia/en/3/30/Java_programming_language_logo.svg",
+    ],
+    playstore:
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTn-RsGSnFAr00Dzhk6MZXlXQcC7vVZLaSxEg&s",
+    appstore:
+      "https://banner2.cleanpng.com/20180804/ejz/kisspng-app-store-iphone-apple-mobile-app-application-soft-airtex-fuel-pumps-amp-quot-amp-quot-support-n-5b66078b0d1050.8870557815334132590535.jpg",
+  },
+  {
+    title: "Prabhu Online Mobile App",
+    description:
+      "You can send money directly to a bank account, or for a cash pick-up, around the world using Firmpay. All you have to do is register, link your bank account or a debit card and provide receivers details. In just a few simple steps, your transfer will be on its way to your recipient!",
+    imageUrl: PrabhuMobileHomePage,
+    link: "https://escss.blogspot.com",
+    logos: [
+      "https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg", // Book icon
+      "https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png", // Graduation cap
+      "https://iphoneros.com/wp-content/uploads/2023/12/xocdeoijew.png",
+      "https://cdn.worldvectorlogo.com/logos/redux.svg",
+      "https://upload.wikimedia.org/wikipedia/en/3/30/Java_programming_language_logo.svg",
+    ],
+    playstore:
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTn-RsGSnFAr00Dzhk6MZXlXQcC7vVZLaSxEg&s",
+    appstore:
+      "https://banner2.cleanpng.com/20180804/ejz/kisspng-app-store-iphone-apple-mobile-app-application-soft-airtex-fuel-pumps-amp-quot-amp-quot-support-n-5b66078b0d1050.8870557815334132590535.jpg",
+  },
+  {
+    title: "Sharelook Mobile App",
+    description:
+      "You can send money directly to a bank account, or for a cash pick-up, around the world using Firmpay. All you have to do is register, link your bank account or a debit card and provide receivers details. In just a few simple steps, your transfer will be on its way to your recipient!",
+    imageUrl: ShareLookLesson,
+    logos: [
+      "https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg", // Book icon
+      "https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png", // Graduation cap
+      "https://iphoneros.com/wp-content/uploads/2023/12/xocdeoijew.png",
+      "https://cdn.worldvectorlogo.com/logos/redux.svg",
+      "https://upload.wikimedia.org/wikipedia/en/3/30/Java_programming_language_logo.svg",
+    ],
+    playstore:
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTn-RsGSnFAr00Dzhk6MZXlXQcC7vVZLaSxEg&s",
+    appstore:
+      "https://banner2.cleanpng.com/20180804/ejz/kisspng-app-store-iphone-apple-mobile-app-application-soft-airtex-fuel-pumps-amp-quot-amp-quot-support-n-5b66078b0d1050.8870557815334132590535.jpg",
+  },
+  {
+    title: "AideMoney Mobile App",
+    description:
+      "You can send money directly to a bank account, or for a cash pick-up, around the world using Firmpay. All you have to do is register, link your bank account or a debit card and provide receivers details. In just a few simple steps, your transfer will be on its way to your recipient!",
+    imageUrl: AidemoneyApp,
+    link: "https://codepen.io/eduardoboucas/full/qdaOWv/",
+    logos: [
+      "https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg", // Book icon
+      "https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png", // Graduation cap
+      "https://iphoneros.com/wp-content/uploads/2023/12/xocdeoijew.png",
+      "https://cdn.worldvectorlogo.com/logos/redux.svg",
+      "https://upload.wikimedia.org/wikipedia/en/3/30/Java_programming_language_logo.svg",
+    ],
+    playstore:
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTn-RsGSnFAr00Dzhk6MZXlXQcC7vVZLaSxEg&s",
+    appstore:
+      "https://banner2.cleanpng.com/20180804/ejz/kisspng-app-store-iphone-apple-mobile-app-application-soft-airtex-fuel-pumps-amp-quot-amp-quot-support-n-5b66078b0d1050.8870557815334132590535.jpg",
+  },
+  {
+    title: "PesaDirect Mobile App",
+    description:
+      "You can send money directly to a bank account, or for a cash pick-up, around the world using Firmpay. All you have to do is register, link your bank account or a debit card and provide receivers details. In just a few simple steps, your transfer will be on its way to your recipient!",
+    imageUrl: PesaDirect,
+    logos: [
+      "https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg", // Book icon
+      "https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png", // Graduation cap
+      "https://iphoneros.com/wp-content/uploads/2023/12/xocdeoijew.png",
+      "https://cdn.worldvectorlogo.com/logos/redux.svg",
+      "https://upload.wikimedia.org/wikipedia/en/3/30/Java_programming_language_logo.svg",
+    ],
+    playstore:
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTn-RsGSnFAr00Dzhk6MZXlXQcC7vVZLaSxEg&s",
+    appstore:
+      "https://banner2.cleanpng.com/20180804/ejz/kisspng-app-store-iphone-apple-mobile-app-application-soft-airtex-fuel-pumps-amp-quot-amp-quot-support-n-5b66078b0d1050.8870557815334132590535.jpg",
+  },
+  {
+    title: "TransfaPay Mobile App",
+    description:
+      "You can send money directly to a bank account, or for a cash pick-up, around the world using Firmpay. All you have to do is register, link your bank account or a debit card and provide receivers details. In just a few simple steps, your transfer will be on its way to your recipient!",
+    imageUrl: TransfaPayApp,
+    link: "https://escss.blogspot.com/2017/08/scroll-half-by-half-pure-css.html",
+    logos: [
+      "https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg", // Book icon
+      "https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png", // Graduation cap
+      "https://iphoneros.com/wp-content/uploads/2023/12/xocdeoijew.png",
+      "https://cdn.worldvectorlogo.com/logos/redux.svg",
+      "https://upload.wikimedia.org/wikipedia/en/3/30/Java_programming_language_logo.svg",
+    ],
+    playstore:
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTn-RsGSnFAr00Dzhk6MZXlXQcC7vVZLaSxEg&s",
+    appstore:
+      "https://banner2.cleanpng.com/20180804/ejz/kisspng-app-store-iphone-apple-mobile-app-application-soft-airtex-fuel-pumps-amp-quot-amp-quot-support-n-5b66078b0d1050.8870557815334132590535.jpg",
   },
 ];
