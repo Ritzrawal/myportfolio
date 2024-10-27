@@ -8,21 +8,21 @@
 .LeftHalf {
     width: 50%;
     height: 100vh;
-    /* background: #780206; */
-    background-image: linear-gradient(#FFDAB9,#FFB6C1,#00BFFF,#B0E0E6);
-    background: -webkit-linear-gradient(#FFDAB9,#FFB6C1,#00BFFF,#B0E0E6);
+   background: linear-gradient(to right,#B0E0E6,#FFA07A, #6A7B8D );
     display: flex;
 }
 
 .RightHalf {
     width: 50%;
     height: 100vh;
-    /* background: #3a6186; */
- /* background: -webkit-linear-gradient(#FFDAB9,#FFB6C1,#00BFFF,#B0E0E6); */
+background: linear-gradient(to right, #6A7B8D, #FFA07A,#B0E0E6);
 
+
+
+/* 
       background-image: linear-gradient(#FFDAB9,#FFB6C1,#00BFFF,#B0E0E6);
      background: -webkit-linear-gradient(#FFDAB9,#FFB6C1,#00BFFF,#B0E0E6);
-     background: linear-gradient(to top, #FFDAB9,#FFB6C1,#00BFFF,#B0E0E6);
+     background: linear-gradient(to top, #FFDAB9,#FFB6C1,#00BFFF,#B0E0E6); */
 
     flex-direction: column,
 }
