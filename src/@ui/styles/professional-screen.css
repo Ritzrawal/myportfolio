@@ -25,6 +25,7 @@
     display: flex;
     font-size: 18px;
     flex-direction: column;
+  
    
 }
 .aboutme-description-details{
@@ -51,7 +52,41 @@
   position: relative;
 }
 
+ .computer-image {
+    padding: 0 100px 0 0;
+        animation: computer 2s ease ;
+        /* animation-timeline: view(); */
+    }
 
+
+
+
+
+
+@keyframes details {
+  0% {
+    left: -100%; 
+  }
+  100% {
+    left: 0%;
+  }
+}
+
+@keyframes title {
+  0% {
+    transform: translateY(-100%); /* Text starts from above the element */
+    opacity: 0; /* Initially hidden */
+  }
+  100% {
+    transform: translateY(0); /* Text slides down to its original position */
+    opacity: 1; /* Fully visible */
+  }
+}
+
+@keyframes computer{
+  from{opacity: 0;scale: 1;transform: translateX(500px);}
+  to{ opacity: 1;scale: 1;transform: translateX(0px);}
+}
 
 
 @media (min-width: 1140px) {
@@ -74,22 +109,52 @@
     }
 }
 
-@keyframes details {
-  0% {
-    left: -100%; 
-  }
-  100% {
-    left: 0%;
-  }
-}
+@media (max-width: 767px) {
+    .computer-main-container {
+        width: 100%;
+        align-items: center;
+        padding: 0px;
+        flex-direction: column;
 
-@keyframes title {
-  0% {
-    transform: translateY(-100%); /* Text starts from above the element */
-    opacity: 0; /* Initially hidden */
-  }
-  100% {
-    transform: translateY(0); /* Text slides down to its original position */
-    opacity: 1; /* Fully visible */
-  }
+    }
+
+    /* Hide logo in mobile view */
+    .computer-main-title-logo {
+        display: none;
+    }
+
+    /* Title at the top */
+    .computer-main-title {
+        font-size: 1.8rem;
+        padding-left: 0;
+        line-height: 1.2;
+        order: 1;
+        text-align: center;
+        margin-bottom: 20px;
+        padding-top: 20px;
+    }
+
+    /* Image in the middle */
+    .computer-image {
+        width: 80%;
+        max-width: 300px;
+        padding: 0;
+        margin: 20px auto;
+        order: 2;
+    }
+
+    /* Right side content at the bottom */
+    .computer-main-rightside-container {
+        width: 100%;
+        padding: 0;
+        text-align: center;
+    }
+
+    .aboutme-description-details {
+        padding: 0px;
+        font-size: 1em;
+         order: 3;
+         width: 100%;
+        text-align: center;
+    }
 }

@@ -41,6 +41,7 @@ const ArticleComponent = () => {
                       <img
                         key={i}
                         src={logo}
+                        className="image-techstack"
                         alt={`Logo ${i}`}
                         width="50"
                         height="50"
@@ -49,16 +50,39 @@ const ArticleComponent = () => {
                     ))}
                   </div>
                   <div className="hosted-site-link">
-                    <div>
-                      {" "}
-                      <img
-                        key={index}
-                        src={item.appstore}
-                        alt={`appstore`}
-                        width="50"
-                        height="50"
-                        style={{ marginRight: "10px" }}
-                      />
+                    <div className="storelink-appstore-container">
+                      <a
+                        href={item.linkappstore}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        <img
+                          key={index}
+                          className="img-appstore"
+                          src={item.appstore}
+                          alt={`appstore`}
+                          width="50"
+                          height="50"
+                          style={{ marginRight: "10px" }}
+                        />
+                      </a>
+                    </div>
+                    <div className="storelink-playstore-container">
+                      <a
+                        href={item.linkplaystore}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        <img
+                          key={index}
+                          className="img-playstore"
+                          src={item.playstore}
+                          alt={`playstore`}
+                          width="50"
+                          height="50"
+                          style={{ marginRight: "10px" }}
+                        />
+                      </a>
                     </div>
                   </div>
                 </div>

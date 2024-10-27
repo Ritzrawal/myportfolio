@@ -1,0 +1,12 @@
+{
+   
+    "[json]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "editor.wordWrap": "on",
+    "editor.wordWrapColumn": 80,  
+    "editor.formatOnSave": true,
+    "[jsonc]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    }
+}

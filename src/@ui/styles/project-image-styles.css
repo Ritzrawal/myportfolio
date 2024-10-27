@@ -199,3 +199,51 @@ html {
     background-image: linear-gradient(#FF7F50 ,#00FFFF);
 
 }
+.hosted-site-link{
+width: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: row;
+}
+.storelink-appstore-container{
+   width: 50%;
+display: flex;
+justify-content: center;
+align-items: center;
+object-fit: cover;
+
+}
+.storelink-playstore-container{
+width: 50%;
+display: flex;
+justify-content: center;
+align-items: center;
+object-fit: cover;
+
+}
+.image-techstack{
+  width: 50px;
+  height: 50px;
+}
+.img-appstore{
+  width:60%;
+  height: 20%;
+}
+.img-playstore{
+  width:60%;
+  height: 20%;
+}
+
+@media (max-width:767px){
+  .project-container{
+  background: linear-gradient(to right, #859398, #5A6A71, #283048);
+      }
+      .image-techstack{
+  width: 40px;
+  height: 40px;
+}
+.project-logo-container {
+  padding: 0px;
+}
+}

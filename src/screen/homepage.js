@@ -35,16 +35,10 @@ const Homepage = () => {
   return (
     <>
       <ProfessionalScreen />
-      {/* <WorkListDetails /> */}
       <ProjectDetails />
       <SkillsPage />
       <ContactPage />
     </>
-    // <ImageContent />
-    // <ParallexPage />
-    // <ProjectWorkDetails />
-
-    //
   );
 };
 
