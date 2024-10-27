@@ -4,16 +4,10 @@ import {
   FrimPayFront,
   TransfaPayApp,
   ChoiceRemitHome,
-  ChoiceRemitLogo,
   ChoiceRemitFront,
-  ChoiceRemitbank,
-  ChoiceRemitAmount,
-  ChoiceRemitSend,
   ShareLookTraning,
   ShareLookLesson,
-  ShareLookLiveStream,
   PrabhuMobileHomePage,
-  PrabhuMobileamount,
   PrabhuMobileBankOption,
 } from "../assets";
 
@@ -37,92 +31,6 @@ export const ContentData = [
     id: "4",
     title: "CONTACT Me",
     componentType: "contact",
-  },
-];
-
-export const ProjectDetails = [
-  {
-    name: "ChoiceRemit",
-    apptype: "Hybrid",
-    img: ChoiceRemitFront,
-    link: "https://play.google.com/store/apps/details?id=com.kanacash.app&hl=en_CA",
-    logos: [
-      "https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg", // Book icon
-      "https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png", // Graduation cap
-      "https://iphoneros.com/wp-content/uploads/2023/12/xocdeoijew.png",
-      "https://cdn.worldvectorlogo.com/logos/redux.svg",
-      "https://upload.wikimedia.org/wikipedia/en/3/30/Java_programming_language_logo.svg",
-    ],
-  },
-  {
-    name: "Firmpay",
-    apptype: "Hybrid",
-    img: ShareLookTraning,
-    link: "https://play.google.com/store/apps/details?id=com.kanacash.app&hl=en_CA",
-    logos: [
-      "https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png", // Graduation cap
-      "https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg", // Book icon
-      "https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg", // Pencil icon
-      "https://upload.wikimedia.org/wikipedia/commons/d/d9/Node.js_logo.svg", // School icon
-      "https://iphoneros.com/wp-content/uploads/2023/12/xocdeoijew.png",
-      "https://cdn.worldvectorlogo.com/logos/redux.svg",
-    ],
-  },
-  {
-    name: "PrabhuOnline",
-    apptype: "Hybrid",
-    img: PrabhuMobileHomePage,
-    link: "https://play.google.com/store/apps/details?id=com.kanacash.app&hl=en_CA",
-    logos: [
-      "https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png", // Graduation cap
-      "https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg", // Book icon
-      "https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg", // Pencil icon
-      "https://upload.wikimedia.org/wikipedia/commons/d/d9/Node.js_logo.svg", // School icon
-      "https://iphoneros.com/wp-content/uploads/2023/12/xocdeoijew.png",
-      "https://cdn.worldvectorlogo.com/logos/redux.svg",
-    ],
-  },
-  {
-    name: "Kanacash",
-    apptype: "Hybrid",
-    img: PrabhuMobileBankOption,
-    link: "https://play.google.com/store/apps/details?id=com.kanacash.app&hl=en_CA",
-    logos: [
-      "https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png", // Graduation cap
-      "https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg", // Book icon
-      "https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg", // Pencil icon
-      "https://upload.wikimedia.org/wikipedia/commons/d/d9/Node.js_logo.svg", // School icon
-      "https://iphoneros.com/wp-content/uploads/2023/12/xocdeoijew.png",
-      "https://cdn.worldvectorlogo.com/logos/redux.svg",
-    ],
-  },
-  {
-    name: "Sharelook",
-    apptype: "Hybrid",
-    img: PrabhuMobileBankOption,
-    link: "https://play.google.com/store/apps/details?id=com.kanacash.app&hl=en_CA",
-    logos: [
-      "https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png", // Graduation cap
-      "https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg", // Book icon
-      "https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg", // Pencil icon
-      "https://upload.wikimedia.org/wikipedia/commons/d/d9/Node.js_logo.svg", // School icon
-      "https://iphoneros.com/wp-content/uploads/2023/12/xocdeoijew.png",
-      "https://cdn.worldvectorlogo.com/logos/redux.svg",
-    ],
-  },
-  {
-    name: "Client E",
-    apptype: "Hong Kong",
-    img: ChoiceRemitHome,
-    link: "https://play.google.com/store/apps/details?id=com.kanacash.app&hl=en_CA",
-    logos: [
-      "https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png", // Graduation cap
-      "https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg", // Book icon
-      "https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg", // Pencil icon
-      "https://upload.wikimedia.org/wikipedia/commons/d/d9/Node.js_logo.svg", // School icon
-      "https://iphoneros.com/wp-content/uploads/2023/12/xocdeoijew.png",
-      "https://cdn.worldvectorlogo.com/logos/redux.svg",
-    ],
   },
 ];
 
