@@ -5,13 +5,13 @@
   text-align: center;
   padding: 50px 0;
   
-     background: linear-gradient(to right, #859398, #5A6A71, #283048);
-    background: -webkit-linear-gradient(to right, #859398, #5A6A71, #283048);
+   background: linear-gradient(to right, #859398, #5A6A71, #283048);
+  background: -webkit-linear-gradient(to right, #859398, #5A6A71, #283048);
 }
 .compnent-title-style{
 background-image: linear-gradient(#FF7F50,#00FFFF);
-    color: transparent;
-    background-clip: text;
+  color: transparent;
+  background-clip: text;
   font-size: 3rem; /* Adjust size as needed */
   font-weight: bold; /* Optional: makes the text bold */
 }
@@ -71,4 +71,10 @@ background-image: linear-gradient(#FF7F50,#00FFFF);
   width: 50px;
   height: 50px;
 }
+}
+
+@media (min-width:767px) and (max-width:969px) {
+  .compnent-title-style {
+    font-size: 2em;
+  }
 }
