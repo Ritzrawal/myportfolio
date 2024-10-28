@@ -6,7 +6,7 @@
   padding: 50px 0;
   
    background: linear-gradient(to right, #859398, #5A6A71, #283048);
-  background: -webkit-linear-gradient(to right, #859398, #5A6A71, #283048);
+  /* background: -webkit-linear-gradient(to right, #859398, #5A6A71, #283048); */
 }
 .compnent-title-style{
 background-image: linear-gradient(#FF7F50,#00FFFF);

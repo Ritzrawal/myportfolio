@@ -4,10 +4,7 @@
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-  
    background: linear-gradient(to right, #859398, #5A6A71, #283048);
-    background: -webkit-linear-gradient(to right, #859398, #5A6A71, #283048);
-
 }
 .computer-main-title-logo{
     /* width: 100px;
