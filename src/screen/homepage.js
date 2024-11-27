@@ -1,10 +1,11 @@
 import React, { useEffect, useState } from "react";
+
 import Svganimation from "./loadinPage";
 import "../@ui/styles/Home-styles.css";
 
-import ProfessionalScreen from "./professional-screen";
 import SkillsPage from "./skills-page";
 import ContactPage from "./contact-page";
+import ProfessionalScreen from "./professional-screen";
 
 import ProjectDetails from "./project-work";
 

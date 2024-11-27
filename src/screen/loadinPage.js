@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import "../@ui/styles/Loader-styles.css";
+
 class Svganimation extends Component {
   render() {
     return (

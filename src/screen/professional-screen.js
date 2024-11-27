@@ -1,7 +1,7 @@
 import React from "react";
 import "../@ui/styles/professional-screen.css";
-import { RSvgLogo } from "../component";
 
+import { RSvgLogo } from "../component";
 import ComputerSvgLogo from "../component/computerSvg";
 
 const ProfessionalScreen = () => {
@@ -16,9 +16,10 @@ const ProfessionalScreen = () => {
           <div className="aboutme-description-details">
             Hey there, welcome to my Portfolio ! I'm Ritesh, a highly motivated
             and dedicated React Frontend Developer with strong knowledge of
-            JavaScript, CSS,Node,React-Native HTML,React js and Redux.Seeking an
-            opportunity to leverage my skills and knowledge to contribute to a
-            dynamic development team while continuously enhancing my expertise.
+            React,Redux,React Native,NextJs,Tailwind CSS, JavaScript, CSS,Node,
+            and HTML.Seeking an opportunity to leverage my skills and knowledge
+            to contribute to a dynamic development team while continuously
+            enhancing my expertise.
           </div>
         </div>
 
