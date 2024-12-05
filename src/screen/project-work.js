@@ -1,6 +1,6 @@
 import React from "react";
-import "../@ui/styles/project-image-styles.css";
 import { IphoneFrame } from "../assets";
+import "../@ui/styles/project-image-styles.css";
 
 import { data } from "../helper/data";
 
@@ -13,7 +13,6 @@ const ArticleComponent = () => {
           {data.map((item, index) => (
             <React.Fragment key={index}>
               <figure>
-                {/* <img src={item.imageUrl} alt={item.title} /> */}
                 <div className="iphone-frame">
                   <img
                     className="iphone-img"

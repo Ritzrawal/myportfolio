@@ -6,20 +6,15 @@
   padding: 50px 0;
   
    background: linear-gradient(to right, #859398, #5A6A71, #283048);
-  /* background: -webkit-linear-gradient(to right, #859398, #5A6A71, #283048); */
 }
 .compnent-title-style{
 background-image: linear-gradient(#FF7F50,#00FFFF);
   color: transparent;
   background-clip: text;
-  font-size: 3rem; /* Adjust size as needed */
-  font-weight: bold; /* Optional: makes the text bold */
+  font-size: 3rem; 
+  font-weight: bold; 
 }
 
-/* .heading h1 {
-  font-size: 3em;
-  margin-bottom: 20px;
-} */
 .heading{
     padding-bottom: 40px;
 }
@@ -57,7 +52,6 @@ background-image: linear-gradient(#FF7F50,#00FFFF);
   font-size: 1.1em;
 }
 
-/* This will apply animations in sequence */
 .icon-1, .icon-2, .icon-3, .icon-4, .icon-5, .icon-6, .icon-7, .icon-8, .icon-9, .icon-10, .icon-11, .icon-12, .icon-13, .icon-14 {
   transition-delay: 0s, 0.1s, 0.2s, 0.3s, 0.4s, 0.5s, 0.6s, 0.7s, 0.8s, 0.9s, 1s, 1.1s, 1.2s, 1.3s;
 }
