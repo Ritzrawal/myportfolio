@@ -1,4 +1,4 @@
-import React, { link } from "react";
+import React from "react";
 import "../@ui/styles/contact-page.css";
 
 // Icon component
