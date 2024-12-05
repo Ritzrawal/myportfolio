@@ -1,5 +1,5 @@
 import { Homepage } from "./screen/index";
-// import ScreenLoader from "./screen/loadinPage";
+
 import "./App.css";
 
 const App = () => {

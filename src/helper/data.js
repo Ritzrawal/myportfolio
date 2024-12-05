@@ -3,36 +3,10 @@ import {
   AidemoneyApp,
   FrimPayFront,
   TransfaPayApp,
-  ChoiceRemitHome,
   ChoiceRemitFront,
-  ShareLookTraning,
   ShareLookLesson,
   PrabhuMobileHomePage,
-  PrabhuMobileBankOption,
 } from "../assets";
-
-export const ContentData = [
-  {
-    id: "1",
-    title: "ABOUT ME",
-    componentType: "aboutme",
-  },
-  {
-    id: "2",
-    title: "MY PROJECTS",
-    componentType: "myprojects",
-  },
-  {
-    id: "3",
-    title: "SKILLS",
-    componentType: "myskills",
-  },
-  {
-    id: "4",
-    title: "CONTACT Me",
-    componentType: "contact",
-  },
-];
 
 export const skillslogos = [
   {
@@ -81,7 +55,7 @@ export const skillslogos = [
   {
     name: "React Native",
     url: "https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg",
-  }, // Same logo as React
+  },
   {
     name: "AWS",
     url: "https://upload.wikimedia.org/wikipedia/commons/9/93/Amazon_Web_Services_Logo.svg",
@@ -93,20 +67,6 @@ export const skillslogos = [
   {
     name: "Xcode",
     url: "https://iphoneros.com/wp-content/uploads/2023/12/xocdeoijew.png",
-  },
-];
-export const educationData = [
-  {
-    degree: "Bachelor of Science in Computer Science",
-    institution: "University of Example",
-    startDate: "September 2016",
-    endDate: "June 2020",
-  },
-  {
-    degree: "Master of Engineering",
-    institution: "Tech Institute",
-    startDate: "September 2021",
-    endDate: "June 2023",
   },
 ];
 

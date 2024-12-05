@@ -1,7 +1,6 @@
 import React from "react";
 import "../@ui/styles/contact-page.css";
 
-// Icon component
 const Icon = ({ src, alt, link }) => (
   <a href={link} target="_blank" rel="noopener noreferrer">
     <div className="icon-container">
