@@ -1,11 +1,7 @@
 .logo-mask {
-  /* position: absolute; */
   -webkit-transform-style: preserve-3d;
-  /* transform-style: preserve-3d;
-  -webkit-transform: translateY(-50%);
-  transform: translateY(-50%); */
   opacity: .6;
-  /* z-index: 3; */
+
 }
 
 #XMLID_4_ {

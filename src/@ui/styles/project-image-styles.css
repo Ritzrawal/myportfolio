@@ -24,9 +24,6 @@ html {
   }
 
   figure {
-    /* background: #eee; */
-   /* background: linear-gradient(to right,#859398,#5A6A71); */
-    
     background: linear-gradient(to right, #859398, #5A6A71);
     width: calc(50% + 1px);
     height: 100vh;
@@ -37,22 +34,7 @@ html {
     display: flex;
     justify-content: center;
     align-items: center;
-    /* box-shadow: 4px -4px 8px rgba(0, 0, 0, 0.4); */
   }
-
-  /* figure::after {
-    content: '';
-    position: absolute;
-    top: 5vmin;
-    right: 5vmin;
-    bottom: 5vmin;
-    left: 45%;
-    border: 2px dashed #fff;
-    outline: 1px solid #fff;
-    outline-offset: -5vmin;
-    backdrop-filter: grayscale(1);
-    pointer-events: none;
-  } */
 
   figure:nth-of-type(2n)::after {
     right: 45%;
@@ -60,17 +42,13 @@ html {
   }
 
   section {
-    /* background: #e5e5e5; */
        background: linear-gradient(to right,#5A6A71, #859398 );
-       /* background: linear-gradient(to right,#5A6A71, #283048); */
-
     width: calc(50% + 1px);
     height: 100vh;
     margin: 0 0 10vh auto;
     position: sticky;
     top: 0;
     padding: 5vmin;
-    /* box-shadow: -4px -4px 8px rgba(0, 0, 0, 0.4); */
   }
 
   figure:nth-of-type(1), section:nth-of-type(1) {
@@ -92,20 +70,6 @@ html {
     margin-bottom: 0;
   }
 
-  /* section::before {
-    background: inherit;
-    z-index: 1;
-    content: '';
-    position: absolute;
-    top: 50%;
-    left: 0;
-    width: 7vmin;
-    height: 7vmin;
-    transform: translate(calc(-50% + 1px), -50%) rotate(-45deg);
-    clip-path: polygon(-15% -15%, 110% 0%, 0% 110%);
-    box-shadow: -4px -2px 8px rgba(0, 0, 0, 0.4);
-    border-radius: 1.5vmin 0 0 0;
-  } */
 
   section:nth-of-type(2n)::before {
     left: auto;
@@ -113,19 +77,6 @@ html {
     transform: translate(calc(50% - 1px), -50%) rotate(-45deg) scale(-1);
   }
 
-  /* section::after {
-    content: '';
-    position: absolute;
-    top: 5vmin;
-    right: 45%;
-    bottom: 5vmin;
-    left: 5vmin;
-    border: 2px dashed #fff;
-    outline: 1px solid #fff;
-    outline-offset: -5vmin;
-    backdrop-filter: invert(1);
-    pointer-events: none;
-  } */
 
   section:nth-of-type(2n)::after {
     right: 5vmin;
@@ -155,7 +106,6 @@ html {
   }
 }
 
-/* Iphone frame css */
 .iphone-frame {
   position: relative;
   display: inline-block;
