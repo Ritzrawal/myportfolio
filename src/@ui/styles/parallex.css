@@ -52,7 +52,6 @@ h4 {
   display: inline-block;
   width: 100%;
   height: 100%;
-  /* margin: 25px 0 75px; */
   box-shadow: 2px 1px 5px #999;
   overflow-x: hidden;
   overflow-y: auto;
@@ -72,93 +71,50 @@ h4 {
 }
 
 #port00 {
-  /* background-color: #394e72; */
   width: 100%;
-  /* height: 450px; */
   transform: translateZ(-32px) scale(33);
   z-index: 1;
 }
 
 #port01 {
-  /* background-color: #6ba5a5; */
   width: 100%;
-  /* height: 450px; */
   margin-top: calc(450px * 16);
   transform: translateZ(-16px) scale(17);
   z-index: 2;
 }
 
 #port02 {
-  /* background-color: #333; */
   width: 100%;
-  /* height: 450px; */
   margin-top: calc(450px * 8);
   transform: translateZ(-8px) scale(9);
   z-index: 3;
 }
 
 #port03 {
-  /* background-color: #394e72; */
   width: 100%;
-  /* height: 450px; */
   margin-top: calc(450px * 4);
   transform: translateZ(-4px) scale(5);
   z-index: 4;
 }
 
 #port04 {
-  /* background-color: #6ba5a5; */
   width: 100%;
-  /* height: 450px; */
   margin-top: calc(450px * 2);
   transform: translateZ(-2px) scale(3);
   z-index: 5;
 }
 
 #port05 {
-  /* background-color: #333; */
   width: 100%;
-  /* height: 450px; */
   margin-top: 450px;
   transform: translateZ(-1px) scale(2);
   z-index: 6;
 }
 
 #port06 {
-  /* background-color: #394e72; */
   width: 100%;
   height: 450px;
   transform: translateZ(0) scale(1);
   z-index: 7;
 }
 
-/* .title {
-  position: sticky;
-  top: 0;
-  background: #fff;
-  padding: 10px;
-  font-size: 1.5rem;
-  border-bottom: 1px solid #ccc;
-  z-index: 1;
-  transition: opacity 0.3s ease;
-} */
-
-/* .title.hidden {
-  opacity: 0;
-} */
-/* .scroll-container {
-  position: relative;
-  width: 80%;
-  height: 300px; 
-  overflow: hidden;
-  border: 1px solid #ccc;
-  background-color: #fff;
-}
-
-.content {
-  position: absolute;
-  width: 100%;
-  height: auto;
-  overflow-y: scroll;
-  padding: 20px;
-} */
