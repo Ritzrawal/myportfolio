@@ -1,5 +1,6 @@
 import { Homepage } from "./screen/index";
 
+("use client");
 import "./App.css";
 
 const App = () => {
