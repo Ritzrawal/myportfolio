@@ -7,10 +7,6 @@
    background: linear-gradient(to right, #859398, #5A6A71, #283048);
 }
 .computer-main-title-logo{
-    /* width: 100px;
-    position: absolute;
-    top: 100px;
-    left: 100px; */
     display: flex;
     width: 50%;
     padding-bottom: 25%;
@@ -71,12 +67,11 @@
 
 @keyframes title {
   0% {
-    transform: translateY(-100%); /* Text starts from above the element */
-    opacity: 0; /* Initially hidden */
+    transform: translateY(-100%); 
+    opacity: 0;
   }
-  100% {
-    transform: translateY(0); /* Text slides down to its original position */
-    opacity: 1; /* Fully visible */
+  100% { 
+    opacity: 1; 
   }
 }
 
@@ -101,12 +96,11 @@
 
     }
 
-    /* Hide logo in mobile view */
+   
     .computer-main-title-logo {
         display: none;
     }
 
-    /* Title at the top */
     .computer-main-title {
         font-size:3em;
         padding-left: 0;
