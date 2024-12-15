@@ -1,8 +1,8 @@
 import React from "react";
-import { IphoneFrame } from "../../assets";
+import { IphoneFrame } from "../assets";
 import "../@ui/styles/project-image-styles.css";
 
-import { data } from "../../helper/data";
+import { data } from "../helper/data";
 
 const ArticleComponent = () => {
   return (

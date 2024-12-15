@@ -2,10 +2,10 @@
 
 "use client";
 import React, { useState } from "react";
-import ContactPage from "./screen/contact-page";
+import Skills from "./screen/skills-page";
 
 const App: any = () => {
-  return <ContactPage />;
+  return <Skills />;
 };
 
 export default App;

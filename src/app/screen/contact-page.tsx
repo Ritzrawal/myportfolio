@@ -1,6 +1,6 @@
 "use client";
 import React from "react";
-import "../../@ui/styles/contact-page.css";
+import "../@ui/styles/contact-page.css";
 interface IconProps {
   src: string;
   alt: string;

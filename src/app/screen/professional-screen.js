@@ -1,8 +1,8 @@
 import React from "react";
 import "../@ui/styles/professional-screen.css";
 
-import { RSvgLogo } from "../../component";
-import ComputerSvgLogo from "../../component/computerSvg";
+import { RSvgLogo } from "../component";
+import ComputerSvgLogo from "../component/computerSvg";
 
 const ProfessionalScreen = () => {
   return (

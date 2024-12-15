@@ -1,0 +1,41 @@
+.icon-grid-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 3%;
+    background: linear-gradient(to right, #536976, #292E49);
+}
+
+
+.icons-grid {
+  display: grid;
+  gap: 20px;
+  align-items: center;
+  padding-top: 40px;
+  justify-content: center;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.icon-container {
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 70px;
+  height: 70px;
+  margin-right: 30px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+   background: linear-gradient(to right, #FF7F50, #00FFFF);
+}
+
+.icon-social {
+  width: 70%;
+  height: 70%;
+}
+@media (max-width:767px) {
+  .icon-container{
+   width: 50px;
+  height: 50px;
+   margin-right: 10px;
+  }
+}
