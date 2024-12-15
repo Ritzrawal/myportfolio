@@ -13,7 +13,7 @@ class Svganimation extends Component {
           x="0px"
           y="0px"
           viewBox="0 0 400 400"
-          enable-background="new 0 0 400 400"
+          enableBackground="new 0 0 400 400"
         >
           <g id="jjperezaguinaga">
             <g id="airplane2">
@@ -268,118 +268,118 @@ class Svganimation extends Component {
                 />
                 <text
                   transform="matrix(0.977 -0.2134 0 1 149.3367 226.363)"
-                  font-family="'Pathway Gothic One'"
-                  font-size="39.6581"
+                  fontFamily="'Pathway Gothic One'"
+                  fontSize="39.6581"
                 >
                   R
                 </text>
                 <text
                   transform="matrix(0.977 -0.2133 0 1 165.5945 222.6863)"
-                  font-family="'Pathway Gothic One'"
-                  font-size="39.6581"
+                  fontFamily="'Pathway Gothic One'"
+                  fontSize="39.6581"
                 >
                   I
                 </text>
                 <text
                   transform="matrix(0.977 -0.2133 0 1 175.5847 220.6306)"
-                  font-family="'Pathway Gothic One'"
-                  font-size="39.6581"
+                  fontFamily="'Pathway Gothic One'"
+                  fontSize="39.6581"
                 >
                   T
                 </text>
                 <text
                   transform="matrix(0.977 -0.2133 0 1 190.0623 217.4695)"
-                  font-family="'Pathway Gothic One'"
-                  font-size="39.6581"
+                  fontFamily="'Pathway Gothic One'"
+                  fontSize="39.6581"
                 >
                   E
                 </text>
                 <text
                   transform="matrix(0.977 -0.2133 0 1 205.6252 214.5085)"
-                  font-family="'Pathway Gothic One'"
-                  font-size="39.6581"
+                  fontFamily="'Pathway Gothic One'"
+                  fontSize="39.6581"
                 >
                   S
                 </text>
                 <text
                   transform="matrix(0.977 -0.2133 0 1 220.5266 211.9099)"
-                  font-family="'Pathway Gothic One'"
-                  font-size="39.6581"
+                  fontFamily="'Pathway Gothic One'"
+                  fontSize="39.6581"
                 >
                   H
                 </text>
-                {/* <text transform="matrix(0.977 -0.2133 0 1 226.9495 209.4148)" font-family="'Pathway Gothic One'" font-size="39.6581">E</text>
-			<text transform="matrix(0.977 -0.2133 0 1 238.844 206.8171)" font-family="'Pathway Gothic One'" font-size="39.6581">R</text> */}
+                {/* <text transform="matrix(0.977 -0.2133 0 1 226.9495 209.4148)" fontFamily="'Pathway Gothic One'" fontSize="39.6581">E</text>
+			<text transform="matrix(0.977 -0.2133 0 1 238.844 206.8171)" fontFamily="'Pathway Gothic One'" fontSize="39.6581">R</text> */}
               </g>
               <g>
                 {/* <line fill="#fff" x1="170.574" y1="189.775" x2="300.712" y2="176.861"/> */}
                 <text
                   transform="matrix(0.977 -0.2134 0 1 151.6272 187.7834)"
-                  font-family="'Pathway Gothic One'"
-                  font-size="15.5752"
+                  fontFamily="'Pathway Gothic One'"
+                  fontSize="15.5752"
                 >
                   D
                 </text>
                 <text
                   transform="matrix(0.977 -0.2134 0 1 158.1804 186.5706)"
-                  font-family="'Pathway Gothic One'"
-                  font-size="15.5752"
+                  fontFamily="'Pathway Gothic One'"
+                  fontSize="15.5752"
                 >
                   E
                 </text>
                 <text
                   transform="matrix(0.977 -0.2134 0 1 163.8459 185.552)"
-                  font-family="'Pathway Gothic One'"
-                  font-size="15.5752"
+                  fontFamily="'Pathway Gothic One'"
+                  fontSize="15.5752"
                 >
                   V
                 </text>
                 <text
                   transform="matrix(0.977 -0.2134 0 1 170.1052 184.4036)"
-                  font-family="'Pathway Gothic One'"
-                  font-size="15.5752"
+                  fontFamily="'Pathway Gothic One'"
+                  fontSize="15.5752"
                 >
                   E
                 </text>
                 <text
                   transform="matrix(0.977 -0.2133 0 1 177.1046 183.2244)"
-                  font-family="'Pathway Gothic One'"
-                  font-size="15.5752"
+                  fontFamily="'Pathway Gothic One'"
+                  fontSize="15.5752"
                 >
                   L
                 </text>
                 <text
                   transform="matrix(0.977 -0.2133 0 1 182.8552 181.6189)"
-                  font-family="'Pathway Gothic One'"
-                  font-size="15.5752"
+                  fontFamily="'Pathway Gothic One'"
+                  fontSize="15.5752"
                 >
                   O
                 </text>
                 <text
                   transform="matrix(0.977 -0.2133 0 1 189.1198 180.6003)"
-                  font-family="'Pathway Gothic One'"
-                  font-size="15.5752"
+                  fontFamily="'Pathway Gothic One'"
+                  fontSize="15.5752"
                 >
                   P
                 </text>
                 <text
                   transform="matrix(0.977 -0.2133 0 1 194.8635 179.0886)"
-                  font-family="'Pathway Gothic One'"
-                  font-size="15.5752"
+                  fontFamily="'Pathway Gothic One'"
+                  fontSize="15.5752"
                 >
                   E
                 </text>
                 <text
                   transform="matrix(0.977 -0.2133 0 1 200.8635 178.0286)"
-                  font-family="'Pathway Gothic One'"
-                  font-size="15.5752"
+                  fontFamily="'Pathway Gothic One'"
+                  fontSize="15.5752"
                 >
                   R
                 </text>
-                {/* <text transform="matrix(0.977 -0.2133 0 1 190.8635 180.0086)" font-family="'Pathway Gothic One'" font-size="15.5752">O</text> */}
-                {/* <text transform="matrix(0.977 -0.2133 0 1 192.8650 180.0886)" font-family="'Pathway Gothic One'" font-size="15.5752">P</text>
-			<text transform="matrix(0.977 -0.2133 0 1 195.8660 180.0886)" font-family="'Pathway Gothic One'" font-size="15.5752">E</text>
-			<text transform="matrix(0.977 -0.2133 0 1 196.8670 180.0886)" font-family="'Pathway Gothic One'" font-size="15.5752">R</text> */}
+                {/* <text transform="matrix(0.977 -0.2133 0 1 190.8635 180.0086)" fontFamily="'Pathway Gothic One'" fontSize="15.5752">O</text> */}
+                {/* <text transform="matrix(0.977 -0.2133 0 1 192.8650 180.0886)" fontFamily="'Pathway Gothic One'" fontSize="15.5752">P</text>
+			<text transform="matrix(0.977 -0.2133 0 1 195.8660 180.0886)" fontFamily="'Pathway Gothic One'" fontSize="15.5752">E</text>
+			<text transform="matrix(0.977 -0.2133 0 1 196.8670 180.0886)" fontFamily="'Pathway Gothic One'" fontSize="15.5752">R</text> */}
               </g>
               <g>
                 <line
@@ -389,40 +389,40 @@ class Svganimation extends Component {
                   x2="272.375"
                   y2="221.292"
                 />
-                {/* <text transform="matrix(0.977 -0.2133 0 1 218.2815 232.2166)" font-family="'Pathway Gothic One'" font-size="15.5752"> </text>
-			<text transform="matrix(0.977 -0.2134 0 1 220.6321 231.7029)" font-family="'Pathway Gothic One'" font-size="15.5752"> </text> */}
+                {/* <text transform="matrix(0.977 -0.2133 0 1 218.2815 232.2166)" fontFamily="'Pathway Gothic One'" fontSize="15.5752"> </text>
+			<text transform="matrix(0.977 -0.2134 0 1 220.6321 231.7029)" fontFamily="'Pathway Gothic One'" fontSize="15.5752"> </text> */}
                 <text
                   transform="matrix(0.977 -0.2133 0 1 222.9778 231.1912)"
-                  font-family="'Pathway Gothic One'"
-                  font-size="15.5752"
+                  fontFamily="'Pathway Gothic One'"
+                  fontSize="15.5752"
                 >
                   R
                 </text>
                 <text
                   transform="matrix(0.977 -0.2134 0 1 228.7874 230.1404)"
-                  font-family="'Pathway Gothic One'"
-                  font-size="15.5752"
+                  fontFamily="'Pathway Gothic One'"
+                  fontSize="15.5752"
                 >
                   A
                 </text>
                 <text
                   transform="matrix(0.977 -0.2133 0 1 234.1858 228.9607)"
-                  font-family="'Pathway Gothic One'"
-                  font-size="15.5752"
+                  fontFamily="'Pathway Gothic One'"
+                  fontSize="15.5752"
                 >
                   W
                 </text>
                 <text
                   transform="matrix(0.977 -0.2133 0 1 242.8342 227.7273)"
-                  font-family="'Pathway Gothic One'"
-                  font-size="15.5752"
+                  fontFamily="'Pathway Gothic One'"
+                  fontSize="15.5752"
                 >
                   A
                 </text>
                 <text
                   transform="matrix(0.977 -0.2134 0 1 248.5217 226.4861)"
-                  font-family="'Pathway Gothic One'"
-                  font-size="15.5752"
+                  fontFamily="'Pathway Gothic One'"
+                  fontSize="15.5752"
                 >
                   L
                 </text>
