@@ -3,10 +3,10 @@
 "use client";
 import React, { useState } from "react";
 import Skills from "./screen/skills-page";
-import ComputerSvgLogo from "./component/computerSvg";
+import ArticleComponent from "./screen/project-work";
 
 const App: any = () => {
-  return <ComputerSvgLogo />;
+  return <ArticleComponent />;
 };
 
 export default App;

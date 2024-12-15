@@ -1,10 +1,13 @@
+"use client";
 import React from "react";
+import Image from "next/image";
 import { IphoneFrame } from "../assets";
 import "../@ui/styles/project-image-styles.css";
 
 import { data } from "../helper/data";
 
-const ArticleComponent = () => {
+const ArticleComponent: React.FC = () => {
+  console.log("hello data of the image ", data);
   return (
     <>
       <div className="project-container">
@@ -14,7 +17,7 @@ const ArticleComponent = () => {
             <React.Fragment key={index}>
               <figure>
                 <div className="iphone-frame">
-                  <img
+                  <Image
                     className="iphone-img"
                     src={IphoneFrame}
                     alt="iPhone frame"

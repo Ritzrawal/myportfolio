@@ -91,7 +91,7 @@ export const data: Project[] = [
     title: "ChoiceRemit Mobile App",
     description:
       "Choiceremit helps to transfer money to your recipient instantly with Interac e-Transfer,Deposit money to your recipient e-money account or mobile money account and offer competitive and bank beating exchange rate for every transaction. in Canada",
-    imageUrl: ChoiceRemitFront,
+    imageUrl: ChoiceRemitFront.src,
     logos: [
       "https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg", // Book icon
       "https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png", // Graduation cap
@@ -112,7 +112,7 @@ export const data: Project[] = [
     title: "FirmPay Mobile App",
     description:
       "You can send money directly to a bank account, or for a cash pick-up, around the world using Firmpay. All you have to do is register, link your bank account or a debit card and provide receivers details. In just a few simple steps, your transfer will be on its way to your recipient!",
-    imageUrl: FrimPayFront,
+    imageUrl: FrimPayFront.src,
     logos: [
       "https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg", // Book icon
       "https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png", // Graduation cap
@@ -132,7 +132,7 @@ export const data: Project[] = [
     title: "Prabhu Online Mobile App",
     description:
       "You can send money directly to a bank account, or for a cash pick-up, around the world using PrabhuOnline. All you have to do is register, link your bank account or a debit card and provide receivers details. In just a few simple steps, your transfer will be on its way to your recipient!",
-    imageUrl: PrabhuMobileHomePage,
+    imageUrl: PrabhuMobileHomePage.src,
     logos: [
       "https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg", // Book icon
       "https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png", // Graduation cap
@@ -151,7 +151,7 @@ export const data: Project[] = [
     title: "Sharelook Mobile App",
     description:
       "Sharelook app includes the ability to schedule, set and send reminders and host training events anywhere in the world, at any time, through the apps live-broadcast capability with real-time Q&A and audience participation, forum chat for colleagues to connect. App users can follow and favorite influential trainers and save content in a searchable learning library for faster access and review",
-    imageUrl: ShareLookLesson,
+    imageUrl: ShareLookLesson.src,
     logos: [
       "https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg", // Book icon
       "https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png", // Graduation cap
@@ -172,7 +172,7 @@ export const data: Project[] = [
     title: "AideMoney Mobile App",
     description:
       "AiDEMONEY is the African diaspora’s money transfer app. Send money safely from the U.S. to Cameroon, Ethiopia, Ghana, Kenya and Nigeria -- with a portion of your transfer fee going directly to NGOs in Africa.",
-    imageUrl: AidemoneyApp,
+    imageUrl: AidemoneyApp.src,
     logos: [
       "https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg", // Book icon
       "https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png", // Graduation cap
@@ -191,7 +191,7 @@ export const data: Project[] = [
     title: "PesaDirect Mobile App",
     description:
       "PesaDirect is the fastest way to send money for free to Kenya. You can send money to your friends, family and businesses in Kenya with zero fees and while receiving the best exchange rates with no extra hidden fees. Send Money to M-pesa, Equitel mobile money, Bank Account, or your SACCO Account. With PesaDirect sending money only takes a few clicks. PesaDirect ensures the security of your account information through the use of 128-bit SSL encryption.",
-    imageUrl: PesaDirect,
+    imageUrl: PesaDirect.src,
     logos: [
       "https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg",
       "https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png",
@@ -210,7 +210,7 @@ export const data: Project[] = [
     title: "TransfaPay Mobile App",
     description:
       "TransfaPay is the best way to send money to Sierra Leone in just few minutes. Here at Transfa Pay, international money transfer is simpler, safer, and cheaper.",
-    imageUrl: TransfaPayApp,
+    imageUrl: TransfaPayApp.src,
     logos: [
       "https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg",
       "https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png",
