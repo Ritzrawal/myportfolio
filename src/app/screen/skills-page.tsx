@@ -1,10 +1,11 @@
+"use client";
 import React, { useEffect, useState } from "react";
 import { skillslogos } from "../helper/data";
 import "../@ui/styles/skills-page-style.css";
 
 interface Logo {
-  url: string;
   name: string;
+  url: string;
 }
 
 const Skills: React.FC = () => {
