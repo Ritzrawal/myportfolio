@@ -2,9 +2,10 @@
 
 "use client";
 import React, { useState } from "react";
+import ContactPage from "./screen/contact-page";
 
 const App: any = () => {
-  return <div>Hello data </div>;
+  return <ContactPage />;
 };
 
 export default App;
