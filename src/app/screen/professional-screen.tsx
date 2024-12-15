@@ -2,7 +2,7 @@
 import React from "react";
 import "../@ui/styles/professional-screen.css";
 
-import { RSvgLogo } from "../component";
+import RSvgLogo from "../component/RletterSvg";
 import ComputerSvgLogo from "../component/computerSvg";
 
 interface ProfessionalScreenProps {}

@@ -1,12 +1,12 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
 
 "use client";
-import React, { useState } from "react";
-import Skills from "./screen/skills-page";
-import ArticleComponent from "./screen/project-work";
+
+import React from "react";
+import Homepage from "./screen/homepage";
 
 const App: any = () => {
-  return <ArticleComponent />;
+  return <Homepage />;
 };
 
 export default App;

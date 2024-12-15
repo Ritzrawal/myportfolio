@@ -1,11 +1,11 @@
 "use client";
+
 import React from "react";
 import Image from "next/image";
 import { IphoneFrame } from "../assets";
 import "../@ui/styles/project-image-styles.css";
 
 import { data } from "../helper/data";
-
 const ArticleComponent: React.FC = () => {
   console.log("hello data of the image ", data);
   return (
