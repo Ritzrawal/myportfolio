@@ -1,8 +1,9 @@
 "use client";
 
 import React, { useEffect, useState } from "react";
-import { skillslogos } from "../helper/data";
+
 import "../@ui/styles/skills-page-style.css";
+import { skillslogos } from "../helper/data";
 
 interface Logo {
   name: string;

@@ -1,7 +1,8 @@
 "use client";
 import React from "react";
-import { IconProps } from "../helper/type";
+
 import "../@ui/styles/contact-page.css";
+import { IconProps } from "../helper/type";
 
 const Icon: React.FC<IconProps> = ({ src, alt, link }) => (
   <a href={link} target="_blank" rel="noopener noreferrer">

@@ -1,6 +1,7 @@
 /* eslint-disable react/style-prop-object */
 "use client";
 import React from "react";
+
 import "../@ui/styles/computerSvg.css";
 
 const ComputerSvgLogo: React.FC = () => {
