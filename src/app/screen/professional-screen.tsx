@@ -1,8 +1,8 @@
 "use client";
 import React from "react";
-import "../@ui/styles/professional-screen.css";
 
 import RSvgLogo from "../component/RletterSvg";
+import "../@ui/styles/professional-screen.css";
 import ComputerSvgLogo from "../component/computerSvg";
 
 const ProfessionalScreen: React.FC = () => {
