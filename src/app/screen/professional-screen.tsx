@@ -5,9 +5,7 @@ import "../@ui/styles/professional-screen.css";
 import RSvgLogo from "../component/RletterSvg";
 import ComputerSvgLogo from "../component/computerSvg";
 
-interface ProfessionalScreenProps {}
-
-const ProfessionalScreen: React.FC<ProfessionalScreenProps> = () => {
+const ProfessionalScreen: React.FC = () => {
   return (
     <div className="computer-main-container">
       <div className="computer-main-rightside-container">
