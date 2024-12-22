@@ -14,7 +14,8 @@ $cd myportfolio
 $ yarn 
 
 
-# next run dev
+# run locally into your computer
+$ next run dev
 
 ```
 
