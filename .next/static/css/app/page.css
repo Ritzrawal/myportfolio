@@ -1,0 +1,922 @@
+/*!**********************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[10].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[10].use[3]!./src/app/@ui/styles/Loader-styles.css ***!
+  \**********************************************************************************************************************************************************************************************************************************************************************************/
+@import url(https://fonts.googleapis.com/css?family=Pathway+Gothic+One);
+
+body {
+  background: -webkit-radial-gradient(center, ellipse cover, #ffffff 0%, #f2efd9 100%);
+}
+
+@keyframes rotate-right {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes rotate-left {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(-360deg);
+  }
+}
+
+@keyframes hover {
+  0% {
+    transform: translateY(0%);
+  }
+
+  50% {
+    transform: translateY(5%);
+  }
+
+  100% {
+    transform: translateY(0%);
+  }
+}
+
+@keyframes pull {
+  0% {
+    transform: scaleY(1);
+  }
+
+  40% {
+    transform: scaleY(1.01);
+  }
+
+  60% {
+    transform: scaleY(0.99);
+  }
+
+  80% {
+    transform: scaleY(1.01);
+  }
+
+  100% {
+    transform: scaleY(0.99);
+  }
+
+  80% {
+    transform: scaleY(1.01);
+  }
+
+  100% {
+    transform: scaleY(1);
+  }
+}
+
+#airplane2,
+#airplane1 {
+  transform-origin: 200px 200px;
+  transform: translate3d(0, 0, 0);
+  animation: rotate-right 60s linear 0s infinite;
+}
+
+#countryObjects {
+  transform-origin: 200px 200px;
+  transform: translate3d(0, 0, 0);
+  animation: rotate-right 240s linear 0s infinite;
+}
+
+#floatingGlobe {
+  transform-origin: 200px 200px;
+  transform: translate3d(0, 0, 0);
+  animation: rotate-left 360s linear 0s infinite;
+}
+
+#globe {
+  transform: translate3d(0, 0, 0);
+  animation: hover 0s linear 0s infinite;
+}
+
+#windmill {
+  transform-origin: 331px 201px;
+  transform: translate3d(0, 0, 0);
+  animation: rotate-right 2s linear 0s infinite;
+}
+
+#cloud1 {
+  transform: translate3d(0, 0, 0);
+  animation: hover 3s linear 1s infinite;
+}
+
+#cloud2 {
+  transform: translate3d(0, 0, 0);
+  animation: hover 3s linear 2s infinite;
+}
+
+#cloud3 {
+  transform: translate3d(0, 0, 0);
+  animation: hover 3s linear 3s infinite;
+}
+
+#circle1 {
+  transform-origin: 200px 200px;
+  transform: translate3d(0, 0, 0);
+  animation: rotate-right 12s linear 0s infinite;
+}
+
+#circle2 {
+  transform-origin: 200px 200px;
+  transform: translate3d(0, 0, 0);
+  animation: rotate-left 24s linear 0s infinite;
+}
+
+#circle3 {
+  transform-origin: 200px 200px;
+  transform: translate3d(0, 0, 0);
+  animation: rotate-right 12s linear 0s infinite;
+}
+
+#circle4 {
+  transform-origin: 200px 200px;
+  transform: translate3d(0, 0, 0);
+  animation: rotate-left 24s linear 0s infinite;
+}
+
+#circle5 {
+  transform-origin: 200px 200px;
+  transform: translate3d(0, 0, 0);
+  animation: rotate-right 12s linear 0s infinite;
+}
+/*!********************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[10].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[10].use[3]!./src/app/@ui/styles/Home-styles.css ***!
+  \********************************************************************************************************************************************************************************************************************************************************************************/
+.MainContainer {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    display: flex;
+}
+
+.LeftHalf {
+    width: 50%;
+    height: 100vh;
+   background: linear-gradient(to right,#B0E0E6,#FFA07A, #6A7B8D );
+    display: flex;
+}
+
+.RightHalf {
+    width: 50%;
+    height: 100vh;
+background: linear-gradient(to right, #6A7B8D, #FFA07A,#B0E0E6);
+    flex-direction: column,
+}
+
+.overlay {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 35%;
+    height: 60vh;
+    z-index: 10;
+}
+
+@media (max-width:969px) {
+ .overlay {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 35%;
+    height: auto;
+    z-index: 10;
+}
+}
+/*!**************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[10].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[10].use[3]!./src/app/@ui/styles/skills-page-style.css ***!
+  \**************************************************************************************************************************************************************************************************************************************************************************************/
+.skills-page {
+
+  color: #fff;
+  text-align: center;
+  padding: 50px 0;
+  
+   background: linear-gradient(to right, #859398, #5A6A71, #283048);
+}
+.compnent-title-style{
+background-image: linear-gradient(#FF7F50,#00FFFF);
+  color: transparent;
+  background-clip: text;
+  font-size: 3rem; 
+  font-weight: bold; 
+}
+
+.heading{
+    padding-bottom: 40px;
+}
+
+.heading p {
+  font-size: 1.2em;
+  margin-bottom: 50px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.icons-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  gap: 20px;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding-top: 50px;
+}
+
+.icon {
+  opacity: 0;
+  transform: translateY(100px);
+  transition: all 0.5s ease-out;
+  text-align: center;
+}
+
+.icon img {
+  width: 80px;
+  height: 80px;
+}
+
+.icon p {
+  margin-top: 10px;
+  font-size: 1.1em;
+}
+
+.icon-1, .icon-2, .icon-3, .icon-4, .icon-5, .icon-6, .icon-7, .icon-8, .icon-9, .icon-10, .icon-11, .icon-12, .icon-13, .icon-14 {
+  transition-delay: 0s, 0.1s, 0.2s, 0.3s, 0.4s, 0.5s, 0.6s, 0.7s, 0.8s, 0.9s, 1s, 1.1s, 1.2s, 1.3s;
+}
+
+@media (max-width:767px) {
+  .compnent-title-style{
+    font-size: 1.8em;
+    padding: 10px;
+  }
+  .icon img {
+  width: 50px;
+  height: 50px;
+}
+}
+
+@media (min-width:767px) and (max-width:969px) {
+  .compnent-title-style {
+    font-size: 2em;
+  }
+}
+
+/*!*********************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[10].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[10].use[3]!./src/app/@ui/styles/contact-page.css ***!
+  \*********************************************************************************************************************************************************************************************************************************************************************************/
+/* .icon-grid-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 3%;
+    background: linear-gradient(to right, #536976, #292E49);
+} */
+
+.icons-grid {
+  display: grid;
+  gap: 20px;
+  align-items: center;
+  padding-top: 40px;
+  justify-content: center;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.icon-container {
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 70px;
+  height: 70px;
+  margin-right: 30px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  background: linear-gradient(to right, #ff7f50, #00ffff);
+}
+
+.icon-social {
+  width: 70%;
+  height: 70%;
+}
+@media (max-width: 767px) {
+  .icon-container {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+  }
+}
+
+/*!*****************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[10].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[10].use[3]!./src/app/@ui/styles/project-image-styles.css ***!
+  \*****************************************************************************************************************************************************************************************************************************************************************************************/
+*, *:before, *:after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+  border: 0 none;
+  position: relative;
+}
+
+html {
+  background: #000;
+  box-sizing: border-box;
+  font-family: 'Vollkorn', sans-serif;
+  font-size: 1rem;
+  color: #000;
+}
+
+@media screen and (min-width: 700px) {
+  body > article {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  article{
+   background: linear-gradient(to right, #859398, #5A6A71, #283048);
+  }
+
+  figure {
+    background: linear-gradient(to right, #859398, #5A6A71);
+    width: calc(50% + 1px);
+    height: 100vh;
+    margin: 0 auto 10vh 0;
+    position: sticky;
+    top: 0;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  figure:nth-of-type(2n)::after {
+    right: 45%;
+    left: 5vmin;
+  }
+
+  section {
+       background: linear-gradient(to right,#5A6A71, #859398 );
+    width: calc(50% + 1px);
+    height: 100vh;
+    margin: 0 0 10vh auto;
+    position: sticky;
+    top: 0;
+    padding: 5vmin;
+  }
+
+  figure:nth-of-type(1), section:nth-of-type(1) {
+    margin: 0 0 10vh 0;
+    width: 50%;
+  }
+
+  figure:nth-of-type(2n) {
+    margin: 0 0 10vh auto;
+    /* box-shadow: -4px -4px 8px rgba(0, 0, 0, 0.4); */
+  }
+
+  section:nth-of-type(2n) {
+    margin: 0 auto 10vh 0;
+    /* box-shadow: 4px -4px 8px rgba(0, 0, 0, 0.4); */
+  }
+
+  figure:last-of-type, section:last-of-type {
+    margin-bottom: 0;
+  }
+
+
+  section:nth-of-type(2n)::before {
+    left: auto;
+    right: 0;
+    transform: translate(calc(50% - 1px), -50%) rotate(-45deg) scale(-1);
+  }
+
+
+  section:nth-of-type(2n)::after {
+    right: 5vmin;
+    left: 45%;
+  }
+
+  figure img {
+    min-width: 100%;
+    min-height: 100%;
+    object-fit: cover;
+    object-position: center;
+  }
+
+  section > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    padding: 1rem;
+  }
+.project-container{
+  background: linear-gradient(to right, #859398, #5A6A71, #283048);
+      }
+
+  a:hover, a:focus {
+    -webkit-text-stroke: 1px #999;
+  }
+}
+
+.iphone-frame {
+  position: relative;
+  display: inline-block;
+}
+
+.iphone-img {
+  width: 300px;
+  height: auto;
+}
+
+.iphone-screen {
+  position: absolute;
+  top: 8.5%;  /* Adjust based on your frame's screen area */
+  left: 11%;  /* Adjust based on your frame's screen area */
+  width: 78%; /* Adjust based on your frame's screen area */
+  height: 80%; /* Adjust based on your frame's screen area */
+  overflow: hidden;
+}
+
+.content-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.projects-details-styles{
+  font-size: 1.2em;
+  font-weight: 400;
+ font-family: 'Abramo', sans-serif;
+ color: #eee;
+ padding: 40px;
+}
+.project-logo-container{
+  padding: 40px;
+}
+.project-techstack-style{
+    color: transparent;
+    background-clip: text;
+    font-size: 2rem;
+    margin-bottom: 50px;
+    font-weight: bold;
+    background-image: linear-gradient(#FF7F50 ,#00FFFF);
+
+}
+.hosted-site-link{
+width: 100%;
+display: flex;
+justify-content: space-between;
+align-items: center;
+flex-direction: row;
+}
+.storelink-appstore-container{
+   width: 50%;
+display: flex;
+justify-content: center;
+align-items: center;
+object-fit: cover;
+
+}
+.storelink-playstore-container{
+width: 50%;
+display: flex;
+justify-content: center;
+align-items: center;
+object-fit: cover;
+
+}
+.image-techstack{
+  width: 50px;
+  height: 50px;
+}
+.img-appstore{
+  width:60%;
+  height: 20%;
+}
+.img-playstore{
+  width:60%;
+  height: 20%;
+}
+
+@media (max-width:767px){
+  .project-container{
+  background: linear-gradient(to right, #859398, #5A6A71, #283048);
+      }
+      .image-techstack{
+  width: 40px;
+  height: 40px;
+}
+.project-logo-container {
+  padding: 0px;
+}
+}
+/*!*******************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[10].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[10].use[3]!./src/app/@ui/styles/rletterSvg.css ***!
+  \*******************************************************************************************************************************************************************************************************************************************************************************/
+.logo-mask {
+  -webkit-transform-style: preserve-3d;
+  opacity: .6;
+
+}
+
+#XMLID_4_ {
+  stroke-dasharray: 548, 550;
+  stroke-dashoffset: 0;
+}
+
+#XMLID_3_ {
+  stroke-dasharray: 278, 280;
+  stroke-dashoffset: 0;
+}
+
+#XMLID_2_ {
+  stroke-dasharray: 926, 928;
+  stroke-dashoffset: 0;
+}
+
+#XMLID_1_ {
+  stroke-dasharray: 461, 463;
+  stroke-dashoffset: 0;
+}
+
+#XMLID_12_ {
+  offset: 0;
+  stop-color: #2D2E83
+}
+
+#XMLID_10_ {
+  offset: 1;
+  stop-color: #2D2E83
+}
+
+.shapes-mask {
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transition: opacity .25s ease .65s;
+  z-index: -3;
+}
+
+.logo-mask svg {
+  width: 60%;
+  transform: scale(1.1);
+}
+
+.st0 {
+  clip-path: url(#XMLID_8_);
+  fill: none;
+  stroke: url(#XMLID_9_);
+  stroke-width: 70.344;
+  stroke-miterlimit: 10;
+  animation: new 5s linear forwards;
+}
+
+@keyframes new {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+.st1 {
+  clipPath: url(#XMLID_11_);
+  fill: none;
+  stroke: url(#XMLID_12_);
+  stroke-width: 70.344;
+  stroke-miterlimit: 10;
+}
+
+#XMLID_4 {
+  stroke-dasharray: 1000;
+  stroke-dashoffset: 1000;
+  animation: dash 5s linear forwards;
+}
+
+@keyframes dash {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+/* media querry example ///////////////////////////////////////////////////////////////////*/
+@media only screen and (max-width: 767px) {
+  .logo-mask {
+    position: absolute;
+    transform-style: preserve-3d;
+    top: 40%;
+    transform: translateY(-50%);
+    left: 89%;
+    opacity: .6;
+    z-index: 3;
+  }
+
+  #XMLID_4_ {
+    stroke-dasharray: 548, 550;
+    stroke-dashoffset: 0;
+  }
+
+  #XMLID_3_ {
+    stroke-dasharray: 278, 280;
+    stroke-dashoffset: 0;
+  }
+
+  #XMLID_2_ {
+    stroke-dasharray: 926, 928;
+    stroke-dashoffset: 0;
+  }
+
+  #XMLID_1_ {
+    stroke-dasharray: 461, 463;
+    stroke-dashoffset: 0;
+  }
+
+  #XMLID_12_ {
+    offset: 0;
+    stop-color: #2D2E83
+  }
+
+  #XMLID_10_ {
+    offset: 1;
+    stop-color: #2D2E83
+  }
+
+  .shapes-mask {
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transition: opacity .25s ease .65s;
+    z-index: -3;
+  }
+
+  .logo-mask svg {
+    width: 40%;
+    transform: scale(1.1);
+  }
+
+  .st0 {
+    clip-path: url(#XMLID_8_);
+    fill: none;
+    stroke: url(#XMLID_9_);
+    stroke-width: 70.344;
+    stroke-miterlimit: 10;
+    animation: new 5s linear forwards;
+  }
+
+  @keyframes new {
+    to {
+      stroke-dashoffset: 0;
+    }
+  }
+
+  .st1 {
+    clip-path: url(#XMLID_11_);
+    fill: none;
+    stroke: url(#XMLID_12_);
+    stroke-width: 70.344;
+    stroke-miterlimit: 10;
+  }
+
+  #XMLID_4 {
+    stroke-dasharray: 1000;
+    stroke-dashoffset: 1000;
+    animation: dash 5s linear forwards;
+  }
+
+  @keyframes dash {
+    to {
+      stroke-dashoffset: 0;
+    }
+  }
+}
+/*!****************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[10].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[10].use[3]!./src/app/@ui/styles/professional-screen.css ***!
+  \****************************************************************************************************************************************************************************************************************************************************************************************/
+.computer-main-container{
+    display: flex;
+    height: 100vh;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+   background: linear-gradient(to right, #859398, #5A6A71, #283048);
+}
+.computer-main-title-logo{
+    display: flex;
+    width: 50%;
+    padding-bottom: 25%;
+    align-items: center;
+    justify-content: center;
+}
+.computer-main-rightside-container{
+    width: 50%;
+    display: flex;
+    font-size: 18px;
+    flex-direction: column;
+  
+   
+}
+.aboutme-description-details{
+    display: flex;
+    position: relative;
+    padding: 45px;
+    text-align: start;
+    font-weight: 400;
+    color: #D3D3D3;
+    font-family: 'Abramo', sans-serif;  
+    font-size: 1.2em;
+    animation: details 2s ease-in-out ;
+     
+}
+.computer-main-title {
+  background: linear-gradient(to right,#FF7F50,#00FFFF);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 3rem; 
+  font-weight: bold; 
+  text-align: start;
+  animation:title 0.5s ease-in-out forwards;
+  padding-left: 50px;
+  position: relative;
+}
+
+ .computer-image {
+    width: 45%;
+    padding: 0 100px 0 0;
+    animation: computer 2s ease ;
+    }
+
+
+
+
+
+
+@keyframes details {
+  0% {
+    left: -100%; 
+  }
+  100% {
+    left: 0%;
+  }
+}
+
+@keyframes title {
+  0% {
+    transform: translateY(-100%); 
+    opacity: 0;
+  }
+  100% { 
+    opacity: 1; 
+  }
+}
+
+@keyframes computer{
+  from{opacity: 0;scale: 1;transform: translateX(500px);}
+  to{ opacity: 1;scale: 1;transform: translateX(0px);}
+}
+
+
+
+
+   
+@media only screen and (min-width: 768px) and (max-width: 959px){
+.computer-image {
+        padding: 0 100px 0 0
+    }
+     .computer-main-container {
+        width: 100%;
+        align-items: center;
+        padding: 0px;
+        flex-direction: column;
+
+    }
+
+   
+    .computer-main-title-logo {
+        display: none;
+    }
+
+    .computer-main-title {
+        font-size:3em;
+        padding-left: 0;
+        line-height: 2;
+        order: 1;
+        text-align: center;
+        margin-bottom: 20px;
+        padding-top: 20px;
+    }
+
+    /* Image in the middle */
+    .computer-image {
+        width: 80%;
+        padding: 0;
+        order: 2;
+    }
+
+    /* Right side content at the bottom */
+    .computer-main-rightside-container {
+        width: 100%;
+        padding: 0;
+        text-align: center;
+    }
+
+    .aboutme-description-details {
+        padding: 0px;
+        font-size: 1.5em;
+         order: 3;
+         width: 100%;
+        text-align: center;
+    }
+}
+
+@media (max-width: 767px) {
+    .computer-main-container {
+        width: 100%;
+        align-items: center;
+        padding: 0px;
+        flex-direction: column;
+
+    }
+
+    /* Hide logo in mobile view */
+    .computer-main-title-logo {
+        display: none;
+    }
+
+    /* Title at the top */
+    .computer-main-title {
+        font-size: 1.8rem;
+        padding-left: 0;
+        line-height: 1.2;
+        order: 1;
+        text-align: center;
+        margin-bottom: 20px;
+        padding-top: 20px;
+    }
+
+    /* Image in the middle */
+    .computer-image {
+        width: 80%;
+        max-width: 300px;
+        padding: 0;
+        margin: 20px auto;
+        order: 2;
+    }
+
+    /* Right side content at the bottom */
+    .computer-main-rightside-container {
+        width: 100%;
+        padding: 0;
+        text-align: center;
+    }
+
+    .aboutme-description-details {
+        padding: 0px;
+        font-size: 1em;
+         order: 3;
+         width: 100%;
+        text-align: center;
+    }
+}
+/*!********************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[10].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[10].use[3]!./src/app/@ui/styles/computerSvg.css ***!
+  \********************************************************************************************************************************************************************************************************************************************************************************/
+.computer_graphic svg {
+  width: 100%;
+  height: 100%;
+  max-width: 900px;
+}
+
+.computer_graphic svg .code_graph path {
+  animation: float 4s ease-in-out infinite;
+  transition: all 0.3s ease-out;
+}
+
+.computer_graphic svg .code_graph path:hover {
+  fill: #f4a949 !important;
+}
+
+.computer_graphic svg .code_graph path:hover#path3776,
+.computer_graphic svg .code_graph path:hover#path3780,
+.computer_graphic svg .code_graph path:hover#path3772 {
+  fill: inherit !important;
+}
+
+@keyframes float {
+  0% {
+    transform: translatey(0px);
+  }
+  50% {
+    transform: translatey(-300px);
+  }
+  100% {
+    transform: translatey(0px);
+  }
+}
+
