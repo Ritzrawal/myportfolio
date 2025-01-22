@@ -6,11 +6,11 @@
 
 .computer_graphic svg .code_graph path {
   animation: float 4s ease-in-out infinite;
-  transition: all .3s ease-out;
+  transition: all 0.3s ease-out;
 }
 
 .computer_graphic svg .code_graph path:hover {
-  fill: #F4A949 !important;
+  fill: #f4a949 !important;
 }
 
 .computer_graphic svg .code_graph path:hover#path3776,

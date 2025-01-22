@@ -73,21 +73,18 @@ body {
 
 #airplane2,
 #airplane1 {
-  transform: translate3d(0, 0, 0);
   transform-origin: 200px 200px;
   transform: translate3d(0, 0, 0);
   animation: rotate-right 60s linear 0s infinite;
 }
 
 #countryObjects {
-  transform: translate3d(0, 0, 0);
   transform-origin: 200px 200px;
   transform: translate3d(0, 0, 0);
   animation: rotate-right 240s linear 0s infinite;
 }
 
 #floatingGlobe {
-  transform: translate3d(0, 0, 0);
   transform-origin: 200px 200px;
   transform: translate3d(0, 0, 0);
   animation: rotate-left 360s linear 0s infinite;
@@ -99,7 +96,6 @@ body {
 }
 
 #windmill {
-  transform: translate3d(0, 0, 0);
   transform-origin: 331px 201px;
   transform: translate3d(0, 0, 0);
   animation: rotate-right 2s linear 0s infinite;
@@ -121,35 +117,30 @@ body {
 }
 
 #circle1 {
-  transform: translate3d(0, 0, 0);
   transform-origin: 200px 200px;
   transform: translate3d(0, 0, 0);
   animation: rotate-right 12s linear 0s infinite;
 }
 
 #circle2 {
-  transform: translate3d(0, 0, 0);
   transform-origin: 200px 200px;
   transform: translate3d(0, 0, 0);
   animation: rotate-left 24s linear 0s infinite;
 }
 
 #circle3 {
-  transform: translate3d(0, 0, 0);
   transform-origin: 200px 200px;
   transform: translate3d(0, 0, 0);
   animation: rotate-right 12s linear 0s infinite;
 }
 
 #circle4 {
-  transform: translate3d(0, 0, 0);
   transform-origin: 200px 200px;
   transform: translate3d(0, 0, 0);
   animation: rotate-left 24s linear 0s infinite;
 }
 
 #circle5 {
-  transform: translate3d(0, 0, 0);
   transform-origin: 200px 200px;
   transform: translate3d(0, 0, 0);
   animation: rotate-right 12s linear 0s infinite;
@@ -279,14 +270,13 @@ background-image: linear-gradient(#FF7F50,#00FFFF);
 /*!*********************************************************************************************************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[10].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[10].use[3]!./src/app/@ui/styles/contact-page.css ***!
   \*********************************************************************************************************************************************************************************************************************************************************************************/
-.icon-grid-container{
+/* .icon-grid-container{
     display: flex;
     justify-content: center;
     align-items: center;
     padding-bottom: 3%;
     background: linear-gradient(to right, #536976, #292E49);
-}
-
+} */
 
 .icons-grid {
   display: grid;
@@ -306,18 +296,18 @@ background-image: linear-gradient(#FF7F50,#00FFFF);
   height: 70px;
   margin-right: 30px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-   background: linear-gradient(to right, #FF7F50, #00FFFF);
+  background: linear-gradient(to right, #ff7f50, #00ffff);
 }
 
 .icon-social {
   width: 70%;
   height: 70%;
 }
-@media (max-width:767px) {
-  .icon-container{
-   width: 50px;
-  height: 50px;
-   margin-right: 10px;
+@media (max-width: 767px) {
+  .icon-container {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
   }
 }
 
@@ -905,11 +895,11 @@ object-fit: cover;
 
 .computer_graphic svg .code_graph path {
   animation: float 4s ease-in-out infinite;
-  transition: all .3s ease-out;
+  transition: all 0.3s ease-out;
 }
 
 .computer_graphic svg .code_graph path:hover {
-  fill: #F4A949 !important;
+  fill: #f4a949 !important;
 }
 
 .computer_graphic svg .code_graph path:hover#path3776,
