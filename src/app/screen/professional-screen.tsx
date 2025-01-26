@@ -12,8 +12,11 @@ const ProfessionalScreen: React.FC = () => {
         <div className='computer-main-title-logo'>
           <RSvgLogo />
         </div>
-        <div className='computer-main-title'>Software Developer</div>
-        <div className='text-3xl font-bold underline'>
+        <div className='text-3xl font-bold text-start pl-12 relative animate-title bg-gradient-to-r from-[#FF7F50] to-[#00FFFF] bg-clip-text text-transparent'>
+          Software Developer
+        </div>
+
+        <div className='flex relative p-12 text-start font-normal text-[#D3D3D3] font-sans text-lg animate-details'>
           Hey there, welcome to my Portfolio! I am Ritesh, a highly motivated
           and dedicated React Frontend Developer with strong knowledge of React,
           Redux, React Native, NextJs, Tailwind CSS, JavaScript, CSS, Node, and
