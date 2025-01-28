@@ -1,4 +1,4 @@
-.computer-main-container{
+/* .computer-main-container{
     display: flex;
     height: 100vh;
     flex-direction: row;
@@ -20,8 +20,8 @@
     flex-direction: column;
   
    
-}
-.aboutme-description-details{
+} */
+/* .aboutme-description-details{
     display: flex;
     position: relative;
     padding: 45px;
@@ -43,7 +43,7 @@
   animation:title 0.5s ease-in-out forwards;
   padding-left: 50px;
   position: relative;
-}
+} */
 
  .computer-image {
     width: 45%;

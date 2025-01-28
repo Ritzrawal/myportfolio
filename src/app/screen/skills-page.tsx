@@ -1,6 +1,7 @@
 "use client";
 
 import React, { useEffect, useState } from "react";
+import Image from "next/image";
 
 import "../@ui/styles/skills-page-style.css";
 import { skillslogos } from "../helper/data";
@@ -10,7 +11,7 @@ interface Logo {
   url: string;
 }
 
-const Skills: React.FC<any> = () => {
+const Skills: React.FC = () => {
   const [scrollY, setScrollY] = useState(0);
 
   useEffect(() => {
@@ -45,7 +46,7 @@ const Skills: React.FC<any> = () => {
               transition: `all 0.5s ease-out ${index * 0.1}s`,
             }}
           >
-            <img src={logo.url} alt={logo.name} />
+            <Image src={logo.url} alt={logo.name} width={50} height={50} />
             <p>{logo.name}</p>
           </div>
         ))}

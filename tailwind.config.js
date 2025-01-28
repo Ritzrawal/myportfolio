@@ -9,7 +9,17 @@ module.exports = {
     "./src/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      animation: {
+        computer: "computer 2s ease",
+      },
+      keyframes: {
+        computer: {
+          "0%": { opacity: "0", transform: "translateX(500px)", scale: "1" },
+          "100%": { opacity: "1", transform: "translateX(0)", scale: "1" },
+        },
+      },
+    },
   },
   plugins: [],
 };

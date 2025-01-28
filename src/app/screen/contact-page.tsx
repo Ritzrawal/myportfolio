@@ -1,5 +1,6 @@
 "use client";
 import React from "react";
+// import Image from "next/image";
 
 import "../@ui/styles/contact-page.css";
 import { IconProps } from "../helper/type";
@@ -15,7 +16,7 @@ const Icon: React.FC<IconProps> = ({ src, alt, link }) => (
 const ContactPage: React.FC = () => {
   return (
     <>
-      <div className='bg-slate-400'>
+      <div className='bg-blend-color-dodge'>
         <Icon
           src='https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg'
           alt='GitHub'
