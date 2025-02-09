@@ -12,13 +12,26 @@ module.exports = {
     extend: {
       animation: {
         computer: "computer 2s ease",
+        title: "title 0.5s ease-in-out",
+        details: "details 2s ease-in-out",
       },
       keyframes: {
         computer: {
           "0%": { opacity: "0", transform: "translateX(500px)", scale: "1" },
           "100%": { opacity: "1", transform: "translateX(0)", scale: "1" },
         },
+        title: {
+          "0%": { transform: "translateY(-100%)", opacity: "0" },
+          "100%": { transform: "translateY(0)", opacity: "1" },
+        },
+        details: {
+          "0%": { left: "-100%" },
+          "100%": { left: "0%" },
+        },
       },
+    },
+    screens: {
+      tablet: { min: "768px", max: "959px" }, // Custom breakpoint
     },
   },
   plugins: [],
