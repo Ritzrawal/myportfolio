@@ -7,7 +7,7 @@ import ComputerSvgLogo from "../component/computerSvg";
 
 const ProfessionalScreen: React.FC = () => {
   return (
-    <div className='flex flex-row justify-between items-center h-screen bg-gradient-to-r from-[#859398] via-[#5A6A71] to-[#283048]'>
+    <div className='flex flex-row justify-between items-center h-screen bg-gradient-to-r from-[#859398] via-[#5A6A71] to-[#283048] md:flex-col'>
       <div className='flex flex-col w-1/2 text-[18px]'>
         <div className='flex w-1/2 pb-1/4 items-center justify-center'>
           <RSvgLogo />
