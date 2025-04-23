@@ -32,7 +32,7 @@ const Skills: React.FC = () => {
       <div className='rounded-3xl p-10 mb-12 text-center border-4 shadow-2xl shadow-purple-500/30'>
         <h1 className='text-5xl font-bold mb-4 text-gray-900'>TECH STACK</h1>
         <p className='text-xl text-gray-700'>
-          Here are a few of the projects I&apos;ve worked on.
+          Below are the technologies I have worked with and am currently using.
         </p>
       </div>
 

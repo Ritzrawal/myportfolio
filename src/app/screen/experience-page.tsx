@@ -11,7 +11,7 @@ export default function WorkExperience() {
           MY WORK EXPERIENCE
         </h1>
         <p className='text-xl text-gray-700'>
-          Here are a few of the projects I&apos;ve worked on.
+          Following are some of the experiences I have gained over the years.
         </p>
       </div>
       <div className='max-w-6xl mx-auto'>
