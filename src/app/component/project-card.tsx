@@ -8,7 +8,7 @@ interface ProjectCardProps {
 
 export function ProjectCard({ project }: ProjectCardProps) {
   return (
-    <div className='bg-white rounded-3xl overflow-hidden shadow-lg'>
+    <div className='rounded-3xl overflow-hidden border-4 shadow-2xl shadow-purple-500/30'>
       <div className='relative h-64'>
         <Image
           src={project.image || '/placeholder.svg'}

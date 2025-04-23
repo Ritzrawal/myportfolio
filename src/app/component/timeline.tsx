@@ -23,7 +23,7 @@ export default function WorkExperienceTimeline({
 
       <div className='relative'>
         {experiences.map((experience) => (
-          <div key={experience.id} className='mb-24 relative'>
+          <div key={experience.id} className='mb-24 relative '>
             {/* Timeline dot */}
             <div className='absolute left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-6 h-6 rounded-full bg-blue-500 border-4 border-white shadow-md z-10'></div>
 
@@ -35,8 +35,8 @@ export default function WorkExperienceTimeline({
                   : 'justify-start md:justify-end'
               } md:w-1/2 ${
                 experience.position === 'left'
-                  ? 'md:pr-12 md:ml-0'
-                  : 'md:pl-12 md:ml-auto'
+                  ? 'md:pr-4 md:ml-4 '
+                  : 'md:pl-4 md:ml-auto md:-mr-8'
               }`}
             >
               <ExperienceCard

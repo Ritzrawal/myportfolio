@@ -41,15 +41,7 @@ export default function WorkExperience() {
           Here are a few of the projects I&apos;ve worked on.
         </p>
       </div>
-      {/* <div className='text-center mb-16 border-4 shadow-2xl shadow-purple-500/30'>
-          <h2 className='text-sm font-medium uppercase tracking-wider text-gray-700'>
-            PROFESSIONAL JOURNEY
-          </h2>
-          <h1 className='text-5xl font-bold mt-2 text-gray-900 '>
-            MY WORK EXPERIENCE
-          </h1>
-        </div> */}
-      <div className='container mx-auto '>
+      <div className='max-w-6xl mx-auto'>
         <WorkExperienceTimeline experiences={experiences} />
       </div>
     </div>
