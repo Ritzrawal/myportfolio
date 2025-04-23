@@ -1,4 +1,5 @@
 import {
+  Leavoda,
   PesaDirect,
   AidemoneyApp,
   FrimPayFront,
@@ -13,16 +14,7 @@ interface Logo {
   url: string;
 }
 
-interface Project {
-  title: string;
-  description: string;
-  imageUrl: string; // Assuming the `PesaDirect` variable holds an image URL
-  logos: string[]; // Array of string representing logo URLs
-  playstore?: string; // Optional URL for the Google Play Store link
-  appstore?: string; // Optional URL for the App Store link
-  linkappstore?: string; // Optional URL for the App Store listing
-  linkplaystore?: string; // Optional URL for the Google Play Store listing
-}
+import { Project } from './type';
 
 export const skillslogos: Logo[] = [
   {
@@ -86,145 +78,146 @@ export const skillslogos: Logo[] = [
   },
 ];
 
-export const data: Project[] = [
+export const projectsData: Project[] = [
   {
-    title: 'ChoiceRemit Mobile App',
+    id: 'kicks-store',
+    title: 'The Kicks Store',
+    category: 'website',
     description:
-      'Choiceremit helps to transfer money to your recipient instantly with Interac e-Transfer,Deposit money to your recipient e-money account or mobile money account and offer competitive and bank beating exchange rate for every transaction. in Canada',
-    imageUrl: ChoiceRemitFront.src,
-    logos: [
-      'https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg', // Book icon
-      'https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png', // Graduation cap
-      'https://iphoneros.com/wp-content/uploads/2023/12/xocdeoijew.png',
-      'https://cdn.worldvectorlogo.com/logos/redux.svg',
-      'https://www.svgrepo.com/show/75601/java-logo.svg',
-      'https://www.svgrepo.com/show/439022/typescript.svg',
+      'The Kicks Store is a modern commerce website for sneakers. It features a shopping cart and a product detail page.',
+    image: Leavoda.src,
+    banner: {
+      title: 'SHOES YOU NEED',
+      subtitle: 'Get your best kicks!',
+      buttonText: 'Shop',
+    },
+    slogan: 'EXPLORE YOUR OWN STYLE!',
+    technologies: [
+      'React',
+      'Vite',
+      'Tailwindcss',
+      'Node.js',
+      'Daisyui',
+      'Motion',
+      'Firebase',
     ],
-    playstore: 'https://www.svgrepo.com/show/303139/google-play-badge-logo.svg',
-    appstore:
-      'https://www.svgrepo.com/show/303128/download-on-the-app-store-apple-logo.svg',
-    linkappstore:
-      'https://apps.apple.com/us/app/choice-remit-money-transfer/id6443843925',
-    linkplaystore:
-      'https://play.google.com/store/apps/details?id=com.choiceremit.choicer&hl=en_CA',
+    websiteUrl: '#',
   },
   {
-    title: 'FirmPay Mobile App',
+    id: 'mr-andaman',
+    title: 'Mr. Andaman',
+    category: 'website',
     description:
-      'You can send money directly to a bank account, or for a cash pick-up, around the world using Firmpay. All you have to do is register, link your bank account or a debit card and provide receivers details. In just a few simple steps, your transfer will be on its way to your recipient!',
-    imageUrl: FrimPayFront.src,
-    logos: [
-      'https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg', // Book icon
-      'https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png', // Graduation cap
-      'https://iphoneros.com/wp-content/uploads/2023/12/xocdeoijew.png',
-      'https://cdn.worldvectorlogo.com/logos/redux.svg',
-      'https://www.svgrepo.com/show/75601/java-logo.svg',
-      'https://www.svgrepo.com/show/439022/typescript.svg',
+      "Mr. Andaman — a modern travel agency website that helps users easily book and manage trips to Thailand's beautiful Southern Islands.",
+    image: AidemoneyApp.src,
+    banner: {
+      title: 'Discover the Beauty of the Andaman Sea',
+      subtitle:
+        "Experience Thailand's gem islands, stunning landscapes, crystal clear waters, and more",
+    },
+    technologies: [
+      'Remix',
+      'Tailwindcss',
+      'TypeScript',
+      'Node.js',
+      'MySQL',
+      'S3 Bucket',
+      'Stripe',
+      'DigitalOcean',
     ],
-    playstore: 'https://www.svgrepo.com/show/303139/google-play-badge-logo.svg',
-    appstore:
-      'https://www.svgrepo.com/show/303128/download-on-the-app-store-apple-logo.svg',
-    linkappstore: 'https://apps.apple.com/ca/app/firmpay/id1532010483',
-    linkplaystore:
-      'https://play.google.com/store/apps/details?id=com.moneytun.firmpay&hl=en_CA',
+    websiteUrl: '#',
   },
   {
-    title: 'Prabhu Online Mobile App',
+    id: 'siam-food',
+    title: 'Siam Food Delivery',
+    category: 'application',
     description:
-      'You can send money directly to a bank account, or for a cash pick-up, around the world using PrabhuOnline. All you have to do is register, link your bank account or a debit card and provide receivers details. In just a few simple steps, your transfer will be on its way to your recipient!',
-    imageUrl: PrabhuMobileHomePage.src,
-    logos: [
-      'https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg', // Book icon
-      'https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png', // Graduation cap
-      'https://iphoneros.com/wp-content/uploads/2023/12/xocdeoijew.png',
-      'https://cdn.worldvectorlogo.com/logos/redux.svg',
-      'https://www.svgrepo.com/show/75601/java-logo.svg',
-      'https://www.svgrepo.com/show/439022/typescript.svg',
+      'Siam Food Delivery is an online platform that brings authentic Thai cuisine to your doorstep with a seamless ordering experience.',
+    image: AidemoneyApp.src,
+    technologies: [
+      'Next.js',
+      'Tailwindcss',
+      'TypeScript',
+      'Node.js',
+      'MongoDB',
+      'Docker',
+      'Kubernetes',
+      'CI/CD',
+      'Stripe',
     ],
-    playstore: 'https://www.svgrepo.com/show/303139/google-play-badge-logo.svg',
-    appstore:
-      'https://www.svgrepo.com/show/303128/download-on-the-app-store-apple-logo.svg',
-    linkappstore: 'https://www.prabhuonline.com/about-us',
-    linkplaystore: 'https://www.prabhuonline.com/about-us',
+    websiteUrl: '#',
   },
   {
-    title: 'Sharelook Mobile App',
+    id: 'kicks-store2',
+    title: 'The Kicks Store',
+    category: 'website',
     description:
-      'Sharelook app includes the ability to schedule, set and send reminders and host training events anywhere in the world, at any time, through the apps live-broadcast capability with real-time Q&A and audience participation, forum chat for colleagues to connect. App users can follow and favorite influential trainers and save content in a searchable learning library for faster access and review',
-    imageUrl: ShareLookLesson.src,
-    logos: [
-      'https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg', // Book icon
-      'https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png', // Graduation cap
-      'https://iphoneros.com/wp-content/uploads/2023/12/xocdeoijew.png',
-      'https://cdn.worldvectorlogo.com/logos/redux.svg',
-      'https://www.svgrepo.com/show/75601/java-logo.svg',
-      'https://www.svgrepo.com/show/439022/typescript.svg',
+      'The Kicks Store is a modern commerce website for sneakers. It features a shopping cart and a product detail page.',
+    image: Leavoda.src,
+    banner: {
+      title: 'SHOES YOU NEED',
+      subtitle: 'Get your best kicks!',
+      buttonText: 'Shop',
+    },
+    slogan: 'EXPLORE YOUR OWN STYLE!',
+    technologies: [
+      'React',
+      'Vite',
+      'Tailwindcss',
+      'Node.js',
+      'Daisyui',
+      'Motion',
+      'Firebase',
     ],
-    playstore: 'https://www.svgrepo.com/show/303139/google-play-badge-logo.svg',
-    appstore:
-      'https://www.svgrepo.com/show/303128/download-on-the-app-store-apple-logo.svg',
-    linkappstore:
-      'https://apps.apple.com/ca/app/sharelook/id1450828959?platform=iphone',
-    linkplaystore:
-      'https://play.google.com/store/apps/details?id=com.threeviewgroup.sharelook&hl=en_CA',
+    websiteUrl: '#',
   },
   {
-    title: 'AideMoney Mobile App',
+    id: 'kicks-store3',
+    title: 'The Kicks Store',
+    category: 'website',
     description:
-      'AiDEMONEY is the African diaspora’s money transfer app. Send money safely from the U.S. to Cameroon, Ethiopia, Ghana, Kenya and Nigeria -- with a portion of your transfer fee going directly to NGOs in Africa.',
-    imageUrl: AidemoneyApp.src,
-    logos: [
-      'https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg', // Book icon
-      'https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png', // Graduation cap
-      'https://iphoneros.com/wp-content/uploads/2023/12/xocdeoijew.png',
-      'https://cdn.worldvectorlogo.com/logos/redux.svg',
-      'https://www.svgrepo.com/show/75601/java-logo.svg',
-      'https://www.svgrepo.com/show/439022/typescript.svg',
+      'The Kicks Store is a modern commerce website for sneakers. It features a shopping cart and a product detail page.',
+    image: Leavoda.src,
+    banner: {
+      title: 'SHOES YOU NEED',
+      subtitle: 'Get your best kicks!',
+      buttonText: 'Shop',
+    },
+    slogan: 'EXPLORE YOUR OWN STYLE!',
+    technologies: [
+      'React',
+      'Vite',
+      'Tailwindcss',
+      'Node.js',
+      'Daisyui',
+      'Motion',
+      'Firebase',
     ],
-    playstore: 'https://www.svgrepo.com/show/303139/google-play-badge-logo.svg',
-    appstore:
-      'https://www.svgrepo.com/show/303128/download-on-the-app-store-apple-logo.svg',
-    linkappstore: 'https://apps.apple.com/us/app/aidemoney/id1567353706',
-    linkplaystore: 'https://apps.apple.com/us/app/aidemoney/id1567353706',
+    websiteUrl: '#',
   },
   {
-    title: 'PesaDirect Mobile App',
+    id: 'kicks-store4',
+    title: 'The Kicks Store',
+    category: 'website',
     description:
-      'PesaDirect is the fastest way to send money for free to Kenya. You can send money to your friends, family and businesses in Kenya with zero fees and while receiving the best exchange rates with no extra hidden fees. Send Money to M-pesa, Equitel mobile money, Bank Account, or your SACCO Account. With PesaDirect sending money only takes a few clicks. PesaDirect ensures the security of your account information through the use of 128-bit SSL encryption.',
-    imageUrl: PesaDirect.src,
-    logos: [
-      'https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg',
-      'https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png',
-      'https://iphoneros.com/wp-content/uploads/2023/12/xocdeoijew.png',
-      'https://cdn.worldvectorlogo.com/logos/redux.svg',
-      'https://www.svgrepo.com/show/75601/java-logo.svg',
-      'https://www.svgrepo.com/show/439022/typescript.svg',
+      'The Kicks Store is a modern commerce website for sneakers. It features a shopping cart and a product detail page.',
+    image: Leavoda.src,
+    banner: {
+      title: 'SHOES YOU NEED',
+      subtitle: 'Get your best kicks!',
+      buttonText: 'Shop',
+    },
+    slogan: 'EXPLORE YOUR OWN STYLE!',
+    technologies: [
+      'React',
+      'Vite',
+      'Tailwindcss',
+      'Node.js',
+      'Daisyui',
+      'Motion',
+      'Firebase',
     ],
-    playstore: 'https://www.svgrepo.com/show/303139/google-play-badge-logo.svg',
-    appstore:
-      'https://www.svgrepo.com/show/303128/download-on-the-app-store-apple-logo.svg',
-    linkappstore: 'https://apps.apple.com/us/app/pesadirect/id1544980130',
-    linkplaystore: 'https://apps.apple.com/us/app/pesadirect/id1544980130',
-  },
-  {
-    title: 'TransfaPay Mobile App',
-    description:
-      'TransfaPay is the best way to send money to Sierra Leone in just few minutes. Here at Transfa Pay, international money transfer is simpler, safer, and cheaper.',
-    imageUrl: TransfaPayApp.src,
-    logos: [
-      'https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg',
-      'https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png',
-      'https://iphoneros.com/wp-content/uploads/2023/12/xocdeoijew.png',
-      'https://cdn.worldvectorlogo.com/logos/redux.svg',
-      'https://www.svgrepo.com/show/75601/java-logo.svg',
-      'https://www.svgrepo.com/show/439022/typescript.svg',
-    ],
-    playstore: 'https://www.svgrepo.com/show/303139/google-play-badge-logo.svg',
-    appstore:
-      'https://www.svgrepo.com/show/303128/download-on-the-app-store-apple-logo.svg',
-    linkappstore: 'https://apps.apple.com/us/app/transfapay-us/id1573200777',
-    linkplaystore:
-      'https://play.google.com/store/apps/details?id=com.tranfapay.app&hl=en_CA',
+    websiteUrl: '#',
   },
 ];
 

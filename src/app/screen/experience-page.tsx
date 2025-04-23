@@ -32,17 +32,24 @@ export default function WorkExperience() {
   ];
 
   return (
-    <div className='min-h-screen'>
-      <div className='container mx-auto '>
-        <div className='text-center mb-16'>
+    <div className='min-h-screen max-w-6xl mx-auto'>
+      <div className='rounded-3xl p-10 mb-12 text-center border-4 shadow-2xl shadow-purple-500/30'>
+        <h1 className='text-5xl font-bold mb-4 text-gray-900'>
+          MY WORK EXPERIENCE
+        </h1>
+        <p className='text-xl text-gray-700'>
+          Here are a few of the projects I&apos;ve worked on.
+        </p>
+      </div>
+      {/* <div className='text-center mb-16 border-4 shadow-2xl shadow-purple-500/30'>
           <h2 className='text-sm font-medium uppercase tracking-wider text-gray-700'>
             PROFESSIONAL JOURNEY
           </h2>
-          <h1 className='text-5xl font-bold mt-2 text-gray-900'>
+          <h1 className='text-5xl font-bold mt-2 text-gray-900 '>
             MY WORK EXPERIENCE
           </h1>
-        </div>
-
+        </div> */}
+      <div className='container mx-auto '>
         <WorkExperienceTimeline experiences={experiences} />
       </div>
     </div>
