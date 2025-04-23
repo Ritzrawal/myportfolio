@@ -1,3 +1,5 @@
+'use client';
+import React from 'react';
 import WorkExperienceTimeline from '../component/timeline';
 
 export default function WorkExperience() {

@@ -74,7 +74,7 @@ export function ProjectCard({ project }: ProjectCardProps) {
         </div>
         <Link
           href={project.websiteUrl}
-          className='block text-center py-3  rounded-lg font-medium border-4 shadow-2xl shadow-purple-500/30'
+          className='block text-center py-3  rounded-lg font-medium border-4 shadow-2xl shadow-purple-500/30 hover:bg-[#6DD5ED] '
         >
           VISIT WEBSITE
         </Link>

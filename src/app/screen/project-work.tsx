@@ -30,7 +30,7 @@ const Projects = () => {
           <button
             className={`px-8 py-3 font-medium rounded-full ${
               activeCategory === 'website'
-                ? 'bg-blue-500 text-white'
+                ? 'bg-[#6DD5ED] text-white'
                 : ' text-gray-800 border-4 shadow-2xl shadow-purple-500/30'
             }`}
             onClick={() => setActiveCategory('website')}
@@ -40,7 +40,7 @@ const Projects = () => {
           <button
             className={`px-8 py-3 font-medium rounded-full ${
               activeCategory === 'application'
-                ? 'bg-blue-500 text-white'
+                ? 'bg-[#6DD5ED] text-white'
                 : ' text-gray-800 border-4 shadow-2xl shadow-purple-500/30'
             }`}
             onClick={() => setActiveCategory('application')}
