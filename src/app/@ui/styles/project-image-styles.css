@@ -20,11 +20,11 @@ html {
     flex-wrap: wrap;
   }
   article{
-   background: linear-gradient(to right, #859398, #5A6A71, #283048);
+   /* background: linear-gradient(to right, #859398, #5A6A71, #283048); */
   }
 
   figure {
-    background: linear-gradient(to right, #859398, #5A6A71);
+    /* background: linear-gradient(to right, #859398, #5A6A71); */
     width: calc(50% + 1px);
     height: 100vh;
     margin: 0 auto 10vh 0;
@@ -42,7 +42,7 @@ html {
   }
 
   section {
-       background: linear-gradient(to right,#5A6A71, #859398 );
+       /* background: linear-gradient(to right,#5A6A71, #859398 ); */
     width: calc(50% + 1px);
     height: 100vh;
     margin: 0 0 10vh auto;
@@ -98,7 +98,7 @@ html {
     padding: 1rem;
   }
 .project-container{
-  background: linear-gradient(to right, #859398, #5A6A71, #283048);
+  /* background: linear-gradient(to right, #859398, #5A6A71, #283048); */
       }
 
   a:hover, a:focus {
@@ -186,9 +186,6 @@ object-fit: cover;
 }
 
 @media (max-width:767px){
-  .project-container{
-  background: linear-gradient(to right, #859398, #5A6A71, #283048);
-      }
       .image-techstack{
   width: 40px;
   height: 40px;
