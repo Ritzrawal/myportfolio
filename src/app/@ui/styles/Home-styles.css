@@ -3,19 +3,18 @@
     height: 100%;
     position: relative;
     display: flex;
+    background: radial-gradient(at 71% 37%, rgb(252, 252, 252) 0px, rgba(0, 0, 0, 0) 70%) no-repeat scroll 74.02% 50% / 200% padding-box border-box, radial-gradient(at 60% 30%, rgb(255, 110, 127) 0px, rgba(0, 0, 0, 0) 50%) no-repeat scroll 74.02% 50% / 200% padding-box border-box, radial-gradient(at 20% 30%, rgb(109, 213, 237) 0px, rgba(0, 0, 0, 0) 80%) no-repeat scroll 74.02% 50% / 200% padding-box border-box, radial-gradient(at 40% 30%, rgb(191, 233, 255) 0px, rgba(0, 0, 0, 0) 90%) no-repeat scroll 74.02% 50% / 200% padding-box border-box, radial-gradient(at 80% 50%, rgb(109, 237, 149) 0px, rgba(0, 0, 0, 0) 70%) no-repeat scroll 74.02% 50% / 200% padding-box border-box, rgba(0, 0, 0, 0) radial-gradient(at 20% 30%, rgb(109, 213, 237) 0px, rgba(0, 0, 0, 0) 90%) no-repeat scroll 74.02% 50% / 200% padding-box border-box;
 }
 
 .LeftHalf {
     width: 50%;
     height: 100vh;
-   background: linear-gradient(to right,#B0E0E6,#FFA07A, #6A7B8D );
     display: flex;
 }
 
 .RightHalf {
     width: 50%;
     height: 100vh;
-background: linear-gradient(to right, #6A7B8D, #FFA07A,#B0E0E6);
     flex-direction: column,
 }
 
