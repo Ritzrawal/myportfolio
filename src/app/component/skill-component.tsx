@@ -29,7 +29,6 @@ export function DevTools() {
     { name: 'Redux', icon: 'redux' },
     { name: 'TailwindCSS', icon: 'tailwind' },
     { name: 'Bootstrap5', icon: 'bootstrap' },
-    { name: 'ShadcnUI', icon: 'shadcn' },
   ]);
 
   // Backend technologies with initial state
@@ -49,45 +48,41 @@ export function DevTools() {
   // Toggle active state of a technology
 
   return (
-    <div className='max-w-6xl mx-auto'>
-      {/* Header Section */}
-
+    <div className='grid grid-cols-2 lg:grid-cols-2 gap-6 sm:grid-cols-1 md:grid-cols-1'>
       {/* Tech Cards Container - Column on mobile, row on larger screens */}
-      <div className='grid grid-cols-2 lg:grid-cols-2 gap-6'>
-        {/* Frontend Development Card */}
-        <div className='rounded-xl p-6 md:p-8 border-4 shadow-2xl shadow-purple-500/30'>
-          <div className='flex items-center gap-3 mb-6'>
-            <Laptop className='w-6 h-6' />
-            <h2 className='text-2xl font-bold'>Frontend Development</h2>
-          </div>
-          <div className='flex flex-wrap gap-2'>
-            {frontendTech.map((tech, index) => (
-              <TechButton
-                key={tech.name}
-                name={tech.name}
-                icon={tech.icon}
-                active={tech.active}
-              />
-            ))}
-          </div>
+      {/* Frontend Development Card */}
+      <div className='rounded-xl p-6 md:p-8 border-4 shadow-2xl shadow-purple-500/30'>
+        <div className='flex items-center gap-3 mb-6'>
+          <Laptop className='w-6 h-6' />
+          <h2 className='text-2xl font-bold'>Frontend Development</h2>
         </div>
+        <div className='flex flex-wrap gap-2'>
+          {frontendTech.map((tech, index) => (
+            <TechButton
+              key={tech.name}
+              name={tech.name}
+              icon={tech.icon}
+              active={tech.active}
+            />
+          ))}
+        </div>
+      </div>
 
-        {/* Backend Development Card */}
-        <div className='rounded-xl p-6 md:p-8 border-4 shadow-2xl shadow-purple-500/30'>
-          <div className='flex items-center gap-3 mb-6'>
-            <Server className='w-6 h-6' />
-            <h2 className='text-2xl font-bold'>Backend Development</h2>
-          </div>
-          <div className='flex flex-wrap gap-2'>
-            {backendTech.map((tech, index) => (
-              <TechButton
-                key={tech.name}
-                name={tech.name}
-                icon={tech.icon}
-                active={tech.active}
-              />
-            ))}
-          </div>
+      {/* Backend Development Card */}
+      <div className='rounded-xl p-6 md:p-8 border-4 shadow-2xl shadow-purple-500/30'>
+        <div className='flex items-center gap-3 mb-6'>
+          <Server className='w-6 h-6' />
+          <h2 className='text-2xl font-bold'>Backend Development</h2>
+        </div>
+        <div className='flex flex-wrap gap-2'>
+          {backendTech.map((tech, index) => (
+            <TechButton
+              key={tech.name}
+              name={tech.name}
+              icon={tech.icon}
+              active={tech.active}
+            />
+          ))}
         </div>
       </div>
     </div>

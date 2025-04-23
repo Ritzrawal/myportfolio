@@ -55,7 +55,9 @@ const Skills: React.FC = () => {
           </div>
         ))}
       </div>
-      <DevTools />
+      <div className='flex flex-col items-center justify-center mt-10'>
+        <DevTools />
+      </div>
     </div>
   );
 };

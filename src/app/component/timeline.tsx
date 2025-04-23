@@ -19,7 +19,7 @@ export default function WorkExperienceTimeline({
   return (
     <div className='relative'>
       {/* Timeline line */}
-      <div className='absolute left-1/2 transform -translate-x-1/2 h-full w-0.5 bg-blue-300'></div>
+      <div className='absolute left-1/2 transform -translate-x-1/2 h-full w-0.5 bg-blue-300 '></div>
 
       <div className='relative'>
         {experiences.map((experience) => (

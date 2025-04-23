@@ -9,6 +9,7 @@ import ProjectDetails from './project-work';
 import ProfessionalScreen from './professional-screen';
 import AnimatedBackground from './landing-page';
 import WorkExperience from './experience-page';
+import { Footer } from '../component/footer-component';
 
 const Homepage: React.FC = () => {
   const [loading, setLoading] = useState(true);
@@ -40,6 +41,7 @@ const Homepage: React.FC = () => {
         <ProjectDetails />
         <WorkExperience />
         <SkillsPage />
+        <Footer />
       </AnimatedBackground>
     </>
   );
