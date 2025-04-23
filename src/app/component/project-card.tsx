@@ -13,8 +13,7 @@ export function ProjectCard({ project }: ProjectCardProps) {
         <Image
           src={project.image || '/placeholder.svg'}
           alt={project.title}
-          fill
-          sizes='100%'
+          fill //   sizes='100%'
           className='object-cover'
         />
         {project.banner && (
