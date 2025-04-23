@@ -40,7 +40,6 @@ const Homepage: React.FC = () => {
         <ProjectDetails />
         <WorkExperience />
         <SkillsPage />
-        <ContactPage />
       </AnimatedBackground>
     </>
   );

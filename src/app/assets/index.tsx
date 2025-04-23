@@ -23,10 +23,14 @@ import AidemoneyApp from './projects/transfapay/aidemoneyhome.webp';
 import IphoneFrame from './projects/device-iphone14.png';
 import MacBookFrame from './projects/device-mbp-15-nonotch.png';
 import Leavoda from './projects/leavoda.png';
+import ShareLook from './projects/sharelook.png';
+import Ekai from './projects/ekai.png';
 
 export {
+  Ekai,
   Leavoda,
   PesaDirect,
+  ShareLook,
   TransfaPayApp,
   IphoneFrame,
   MacBookFrame,

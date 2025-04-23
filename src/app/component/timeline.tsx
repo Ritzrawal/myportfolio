@@ -37,7 +37,7 @@ export default function WorkExperienceTimeline({
                 experience.position === 'left'
                   ? 'md:pr-4 md:ml-4 '
                   : 'md:pl-4 md:ml-auto md:-mr-8'
-              }`}
+              } w-full`}
             >
               <ExperienceCard
                 title={experience.title}
