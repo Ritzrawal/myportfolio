@@ -13,6 +13,7 @@ export function ProjectCard({ project }: ProjectCardProps) {
         <Image
           src={project.image || '/placeholder.svg'}
           alt={project.title}
+          style={{ objectFit: 'contain' }}
           fill //   sizes='100%'
           className='object-cover'
         />
@@ -73,7 +74,7 @@ export function ProjectCard({ project }: ProjectCardProps) {
         </div>
         <Link
           href={project.websiteUrl}
-          className='block text-center py-3 border border-gray-300 rounded-lg font-medium'
+          className='block text-center py-3  rounded-lg font-medium border-4 shadow-2xl shadow-purple-500/30'
         >
           VISIT WEBSITE
         </Link>
