@@ -8,6 +8,7 @@ import ContactPage from './contact-page';
 import ProjectDetails from './project-work';
 import ProfessionalScreen from './professional-screen';
 import AnimatedBackground from './landing-page';
+import WorkExperience from './experience-page';
 
 const Homepage: React.FC = () => {
   const [loading, setLoading] = useState(true);
@@ -37,6 +38,7 @@ const Homepage: React.FC = () => {
       <AnimatedBackground>
         <ProfessionalScreen />
         <ProjectDetails />
+        <WorkExperience />
         <SkillsPage />
         <ContactPage />
       </AnimatedBackground>

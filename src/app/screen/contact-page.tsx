@@ -1,5 +1,3 @@
-import Link from 'next/link';
-
 export default function AboutMe() {
   return (
     <div className='min-h-screen w-full p-4 flex flex-col items-center justify-center '>
