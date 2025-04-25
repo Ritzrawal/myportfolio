@@ -28,7 +28,7 @@ const Skills: React.FC = () => {
   }, []);
 
   return (
-    <div className='min-h-screen max-w-6xl mx-auto'>
+    <div className='min-h-screen max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 '>
       <div className='rounded-3xl p-10 mb-12 text-center border-4 shadow-2xl shadow-purple-500/30'>
         <h1 className='text-5xl font-bold mb-4 text-gray-900'>TECH STACK</h1>
         <p className='text-xl text-gray-700'>
@@ -36,7 +36,7 @@ const Skills: React.FC = () => {
         </p>
       </div>
 
-      <div className='icons-container'>
+      <div className='icons-container rounded-xl p-6 md:p-8 border-4 shadow-2xl shadow-purple-500/30'>
         {skillslogos.map((logo: Logo, index: number) => (
           <div
             className={`icon icon-${index + 1}`}

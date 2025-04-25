@@ -66,7 +66,7 @@ export function ProjectCard({ project }: ProjectCardProps) {
           {project.technologies.map((tech) => (
             <span
               key={tech}
-              className='px-3 py-1 bg-gray-200 rounded-full text-sm'
+              className='px-3 py-1 rounded-full text-sm border-4 shadow-2xl shadow-purple-500/30'
             >
               {tech}
             </span>

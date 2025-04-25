@@ -27,15 +27,3 @@
     height: 60vh;
     z-index: 10;
 }
-
-@media (max-width:969px) {
- .overlay {
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 35%;
-    height: auto;
-    z-index: 10;
-}
-}

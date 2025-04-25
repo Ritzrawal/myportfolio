@@ -4,7 +4,6 @@ import React, { useEffect, useState } from 'react';
 import '../@ui/styles/Home-styles.css';
 import SkillsPage from './skills-page';
 import Svganimation from './loadinPage';
-import ContactPage from './contact-page';
 import ProjectDetails from './project-work';
 import ProfessionalScreen from './professional-screen';
 import AnimatedBackground from './landing-page';
