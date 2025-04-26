@@ -15,7 +15,7 @@ type Technology = {
 
 export function DevTools() {
   // Frontend technologies with initial state
-  const [frontendTech, setFrontendTech] = useState<Technology[]>([
+  const [frontendTech] = useState<Technology[]>([
     { name: 'Figma', icon: 'figma' },
     { name: 'CSS3', icon: 'css3' },
     { name: 'HTML5', icon: 'html5' },
@@ -32,7 +32,7 @@ export function DevTools() {
   ]);
 
   // Backend technologies with initial state
-  const [backendTech, setBackendTech] = useState<Technology[]>([
+  const [backendTech] = useState<Technology[]>([
     { name: 'Javascript', icon: 'javascript' },
     { name: 'Node.js', icon: 'nodejs' },
     { name: 'Express.js', icon: 'nodejs' },
@@ -53,11 +53,13 @@ export function DevTools() {
       {/* Frontend Development Card */}
       <div className='rounded-xl p-6 md:p-8 border-4 shadow-2xl shadow-purple-500/30'>
         <div className='flex items-center gap-3 mb-6'>
-          <Laptop className='w-6 h-6' />
-          <h2 className='text-2xl font-bold'>Frontend Development</h2>
+          <Laptop className='w-6 h-6 text-gray-500' />
+          <h2 className='text-2xl font-bold text-gray-500'>
+            Frontend Development
+          </h2>
         </div>
-        <div className='flex flex-wrap gap-2'>
-          {frontendTech.map((tech, index) => (
+        <div className='flex flex-wrap gap-2 text-gray-500'>
+          {frontendTech.map((tech) => (
             <TechButton
               key={tech.name}
               name={tech.name}
@@ -71,11 +73,13 @@ export function DevTools() {
       {/* Backend Development Card */}
       <div className='rounded-xl p-6 md:p-8 border-4 shadow-2xl shadow-purple-500/30'>
         <div className='flex items-center gap-3 mb-6'>
-          <Server className='w-6 h-6' />
-          <h2 className='text-2xl font-bold'>Backend Development</h2>
+          <Server className='w-6 h-6 text-gray-500' />
+          <h2 className='text-2xl font-bold text-gray-500'>
+            Backend Development
+          </h2>
         </div>
-        <div className='flex flex-wrap gap-2'>
-          {backendTech.map((tech, index) => (
+        <div className='flex flex-wrap gap-2 text-gray-500'>
+          {backendTech.map((tech) => (
             <TechButton
               key={tech.name}
               name={tech.name}

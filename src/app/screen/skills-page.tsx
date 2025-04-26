@@ -1,6 +1,6 @@
 'use client';
 
-import React, { useEffect, useState } from 'react';
+import React, { useEffect } from 'react';
 import Image from 'next/image';
 
 import '../@ui/styles/skills-page-style.css';
@@ -13,12 +13,8 @@ interface Logo {
 }
 
 const Skills: React.FC = () => {
-  const [scrollY, setScrollY] = useState(0);
-
   useEffect(() => {
-    const handleScroll = () => {
-      setScrollY(window.scrollY);
-    };
+    const handleScroll = () => {};
 
     window.addEventListener('scroll', handleScroll);
 
@@ -36,22 +32,22 @@ const Skills: React.FC = () => {
         </p>
       </div>
 
-      <div className='icons-container rounded-xl p-6 md:p-8 border-4 shadow-2xl shadow-purple-500/30'>
+      <div className='grid grid-cols-4 lg:grid-cols-4 sm:grid-cols-3  sm:pl-4 sm:pt-4 gap-4 rounded-xl md:p-8 border-4 shadow-2xl shadow-purple-500/30'>
         {skillslogos.map((logo: Logo, index: number) => (
           <div
-            className={`icon icon-${index + 1}`}
+            // className={}
             key={index}
-            style={{
-              transform:
-                scrollY > 200
-                  ? `translateY(${Math.max(-50, 50 - scrollY / 5)}px)`
-                  : 'translateY(100px)',
-              opacity: scrollY > 200 ? 1 : 0,
-              transition: `all 0.5s ease-out ${index * 0.1}s`,
-            }}
+            // style={{
+            //   transform:
+            //     scrollY > 200
+            //       ? `translateY(${Math.max(-50, 50 - scrollY / 5)}px)`
+            //       : 'translateY(100px)',
+            //   opacity: scrollY > 200 ? 1 : 0,
+            //   transition: `all 0.5s ease-out ${index * 0.1}s`,
+            // }}
           >
             <Image src={logo.url} alt={logo.name} width={50} height={50} />
-            <p>{logo.name}</p>
+            <p className='text-gray-500'>{logo.name}</p>
           </div>
         ))}
       </div>

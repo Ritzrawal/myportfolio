@@ -56,17 +56,19 @@ export function ProjectCard({ project }: ProjectCardProps) {
       </div>
       <div className='p-6'>
         {project.slogan && (
-          <div className='text-center py-4 border-b border-gray-200'>
+          <div className='text-center py-4 border-b border-gray-500 text-gray-500'>
             <h3 className='font-bold uppercase'>{project.slogan}</h3>
           </div>
         )}
-        <h2 className='text-2xl font-bold mt-4 mb-3'>{project.title}</h2>
+        <h2 className='text-2xl font-bold mt-4 mb-3 text-gray-500'>
+          {project.title}
+        </h2>
         <p className='text-gray-700 mb-6'>{project.description}</p>
         <div className='flex flex-wrap gap-2 mb-6'>
           {project.technologies.map((tech) => (
             <span
               key={tech}
-              className='px-3 py-1 rounded-full text-sm border-4 shadow-2xl shadow-purple-500/30'
+              className='px-3 py-1 rounded-full text-sm border-4 shadow-2xl shadow-purple-500/30 text-gray-500'
             >
               {tech}
             </span>
@@ -74,7 +76,7 @@ export function ProjectCard({ project }: ProjectCardProps) {
         </div>
         <Link
           href={project.websiteUrl}
-          className='block text-center py-3  rounded-lg font-medium border-4 shadow-2xl shadow-purple-500/30 hover:bg-[#6DD5ED] '
+          className='block text-center py-3  rounded-lg font-medium border-4 shadow-2xl shadow-purple-500/30 hover:bg-[#6DD5ED] text-gray-500'
         >
           VISIT WEBSITE
         </Link>

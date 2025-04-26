@@ -18,12 +18,7 @@ interface TechButtonProps {
   onClick?: () => void;
 }
 
-export function TechButton({
-  name,
-  icon,
-  active = false,
-  onClick,
-}: TechButtonProps) {
+export function TechButton({ name, icon, onClick }: TechButtonProps) {
   // Function to render the appropriate icon based on the icon name
   const renderIcon = () => {
     switch (icon?.toLowerCase()) {

@@ -15,13 +15,13 @@ const Projects = () => {
       : projectsData.filter((project) => project.category === activeCategory);
 
   return (
-    <div className='min-h-screen bg-gradient-to-b py-16 px-4'>
+    <div className='min-h-screen bg-gradient-to-b pb-16 px-4'>
       <div className='max-w-6xl mx-auto'>
         {/* Header Section */}
         <div className='rounded-3xl p-10 mb-12 text-center border-4 shadow-2xl shadow-purple-500/30'>
           <h1 className='text-5xl font-bold mb-4 text-gray-900'>PROJECTS</h1>
           <p className='text-xl text-gray-700'>
-            Here are a few of the projects I've worked on.
+            Here are a few of the projects I&#39;ve worked on.
           </p>
         </div>
 

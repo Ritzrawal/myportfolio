@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import { Github, Instagram, Linkedin, Mail } from 'lucide-react';
+import { Github, Linkedin, Mail } from 'lucide-react';
 
 interface FooterProps {
   name?: string;
@@ -21,7 +21,7 @@ export function Footer({
   },
 }: FooterProps) {
   return (
-    <footer className='w-ful py-4 px-6'>
+    <footer className='w-ful  px-6 py-8'>
       <div className='container mx-auto flex justify-between items-center'>
         <div className='text-sm text-gray-700'>
           &copy; {year} {name}. All Rights Reserved.

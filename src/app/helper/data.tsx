@@ -2,13 +2,8 @@ import {
   Ekai,
   Leavoda,
   ShareLook,
-  PesaDirect,
   AidemoneyApp,
-  FrimPayFront,
-  TransfaPayApp,
-  ChoiceRemitFront,
   ShareLookLesson,
-  PrabhuMobileHomePage,
   ChoiceRemitHome,
 } from '../assets';
 
@@ -78,6 +73,14 @@ export const skillslogos: Logo[] = [
   {
     name: 'Xcode',
     url: 'https://iphoneros.com/wp-content/uploads/2023/12/xocdeoijew.png',
+  },
+  {
+    name: 'NextJS',
+    url: 'https://static-00.iconduck.com/assets.00/nextjs-icon-1024x1024-5et230l7.png',
+  },
+  {
+    name: 'Tailwind CSS',
+    url: 'https://cdn3d.iconscout.com/3d/free/thumb/free-tailwind-css-3d-icon-download-in-png-blend-fbx-gltf-file-formats--open-source-framework-code-logos-and-brands-pack-icons-9325303.png?f=webp',
   },
 ];
 
@@ -218,7 +221,14 @@ export const projectsData: Project[] = [
   },
 ];
 
-export const experiences = [
+export const experiences: {
+  id: number;
+  title: string;
+  company: string;
+  period: string;
+  achievements: string;
+  position: 'right' | 'left';
+}[] = [
   {
     id: 1,
     title: 'React Developer',
