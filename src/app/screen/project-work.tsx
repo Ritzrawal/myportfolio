@@ -1,105 +1,62 @@
-"use client";
+'use client';
 
-import React from "react";
-import Image from "next/image";
+import { useState } from 'react';
+import { ProjectCard } from '../component/project-card';
+import { projectsData } from '../helper/data';
 
-import { data } from "../helper/data";
-import { IphoneFrame } from "../assets";
-import "../@ui/styles/project-image-styles.css";
+const Projects = () => {
+  const [activeCategory, setActiveCategory] = useState<
+    'website' | 'application' | 'all'
+  >('website');
 
-const ArticleComponent: React.FC = () => {
-  console.log("hello data of the image ", data);
+  const filteredProjects =
+    activeCategory === 'all'
+      ? projectsData
+      : projectsData.filter((project) => project.category === activeCategory);
+
   return (
-    <>
-      <div className='project-container'>
-        <div className='compnent-title-style'>PROJECT</div>
-        <article>
-          {data.map((item, index) => (
-            <React.Fragment key={index}>
-              <figure>
-                <div className='iphone-frame'>
-                  <Image
-                    className='iphone-img'
-                    src={IphoneFrame}
-                    alt='iPhone frame'
-                    width={50}
-                    height={50}
-                  />
-                  <div className='iphone-screen'>
-                    <Image
-                      className='content-img'
-                      src={item.imageUrl}
-                      alt={"image-name"}
-                      width={50}
-                      height={50}
-                    />
-                  </div>
-                </div>
-              </figure>
-              <section>
-                <div>
-                  <h2 className='compnent-title-style'>{item.title}</h2>
-                  <div className='projects-details-styles'>
-                    {item.description}
-                  </div>
-                  <div className='project-logo-container'>
-                    <div className='project-techstack-style'>Tech Stack</div>
-                    {item.logos.map((logo, i) => (
-                      <Image
-                        key={i}
-                        src={logo}
-                        className='image-techstack'
-                        alt={`Logo ${i}`}
-                        width={50}
-                        height={50}
-                        style={{ marginRight: "10px" }}
-                      />
-                    ))}
-                  </div>
-                  <div className='hosted-site-link'>
-                    <div className='storelink-appstore-container'>
-                      <a
-                        href={item.linkappstore}
-                        target='_blank'
-                        rel='noopener noreferrer'
-                      >
-                        {/* <Image
-                          key={index}
-                          className='img-appstore'
-                          src={item.appstore}
-                          alt={`appstore`}
-                          width='50'
-                          height='50'
-                          style={{ marginRight: "10px" }}
-                        /> */}
-                      </a>
-                    </div>
-                    <div className='storelink-playstore-container'>
-                      <a
-                        href={item.linkplaystore}
-                        target='_blank'
-                        rel='noopener noreferrer'
-                      >
-                        {/* <Image
-                          key={index}
-                          className='img-playstore'
-                          // src={item.playstore}
-                          alt={`playstore`}
-                          width='50'
-                          height='50'
-                          style={{ marginRight: "10px" }}
-                        /> */}
-                      </a>
-                    </div>
-                  </div>
-                </div>
-              </section>
-            </React.Fragment>
+    <div className='min-h-screen bg-gradient-to-b pb-16 px-4'>
+      <div className='max-w-6xl mx-auto'>
+        {/* Header Section */}
+        <div className='rounded-3xl p-10 mb-12 text-center border-4 shadow-2xl shadow-purple-500/30'>
+          <h1 className='text-5xl font-bold mb-4 text-gray-900'>PROJECTS</h1>
+          <p className='text-xl text-gray-700'>
+            Here are a few of the projects I&#39;ve worked on.
+          </p>
+        </div>
+
+        {/* Filter Buttons */}
+        <div className='flex justify-center gap-4 mb-12'>
+          <button
+            className={`px-8 py-3 font-medium rounded-full ${
+              activeCategory === 'website'
+                ? 'bg-[#6DD5ED] text-white'
+                : ' text-gray-800 border-4 shadow-2xl shadow-purple-500/30'
+            }`}
+            onClick={() => setActiveCategory('website')}
+          >
+            Website Development
+          </button>
+          <button
+            className={`px-8 py-3 font-medium rounded-full ${
+              activeCategory === 'application'
+                ? 'bg-[#6DD5ED] text-white'
+                : ' text-gray-800 border-4 shadow-2xl shadow-purple-500/30'
+            }`}
+            onClick={() => setActiveCategory('application')}
+          >
+            Application Development
+          </button>
+        </div>
+
+        {/* Projects Grid */}
+        <div className='grid grid-cols-3  sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8'>
+          {filteredProjects.map((project) => (
+            <ProjectCard key={project.id} project={project} />
           ))}
-        </article>
+        </div>
       </div>
-    </>
+    </div>
   );
 };
-
-export default ArticleComponent;
+export default Projects;

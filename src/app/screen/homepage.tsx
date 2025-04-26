@@ -1,12 +1,14 @@
-"use client";
-import React, { useEffect, useState } from "react";
+'use client';
+import React, { useEffect, useState } from 'react';
 
-import "../@ui/styles/Home-styles.css";
-import SkillsPage from "./skills-page";
-import Svganimation from "./loadinPage";
-import ContactPage from "./contact-page";
-import ProjectDetails from "./project-work";
-import ProfessionalScreen from "./professional-screen";
+import '../@ui/styles/Home-styles.css';
+import SkillsPage from './skills-page';
+import Svganimation from './loadinPage';
+import ProjectDetails from './project-work';
+import ProfessionalScreen from './professional-screen';
+import AnimatedBackground from './landing-page';
+import WorkExperience from './experience-page';
+import { Footer } from '../component/footer-component';
 
 const Homepage: React.FC = () => {
   const [loading, setLoading] = useState(true);
@@ -21,22 +23,25 @@ const Homepage: React.FC = () => {
 
   if (loading) {
     return (
-      <div className="MainContainer">
-        <div className="LeftHalf" />
-        <div className="overlay">
+      <div className='MainContainer'>
+        <div className='LeftHalf' />
+        <div className='overlay'>
           <Svganimation />
         </div>
-        <div className="RightHalf" />
+        <div className='RightHalf' />
       </div>
     );
   }
 
   return (
     <>
-      <ProfessionalScreen />
-      <ProjectDetails />
-      <SkillsPage />
-      <ContactPage />
+      <AnimatedBackground>
+        <ProfessionalScreen />
+        <ProjectDetails />
+        <WorkExperience />
+        <SkillsPage />
+        <Footer />
+      </AnimatedBackground>
     </>
   );
 };
