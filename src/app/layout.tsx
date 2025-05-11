@@ -3,7 +3,10 @@ import './globals.css';
 import { Inter } from 'next/font/google';
 
 export const metadata: Metadata = {
-  title: 'React App',
+  title: 'Portfolio',
+  icons: {
+    icon: './favicon.ico',
+  },
   description: 'Web site created with Next.js.',
 };
 

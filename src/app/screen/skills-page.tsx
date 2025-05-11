@@ -34,18 +34,7 @@ const Skills: React.FC = () => {
 
       <div className='grid grid-cols-4 lg:grid-cols-4 sm:grid-cols-3  sm:pl-4 sm:pt-4 gap-4 rounded-xl md:p-8 border-4 shadow-2xl shadow-purple-500/30'>
         {skillslogos.map((logo: Logo, index: number) => (
-          <div
-            // className={}
-            key={index}
-            // style={{
-            //   transform:
-            //     scrollY > 200
-            //       ? `translateY(${Math.max(-50, 50 - scrollY / 5)}px)`
-            //       : 'translateY(100px)',
-            //   opacity: scrollY > 200 ? 1 : 0,
-            //   transition: `all 0.5s ease-out ${index * 0.1}s`,
-            // }}
-          >
+          <div key={index}>
             <Image src={logo.url} alt={logo.name} width={50} height={50} />
             <p className='text-gray-500'>{logo.name}</p>
           </div>

@@ -7,8 +7,7 @@ export default function AboutMe() {
         <div className='flex flex-col md:flex-row gap-8 items-center'>
           <div className='flex-1'>
             <div className='text-2xl md:text-3xl font-semibold mb-6 text-black'>
-              I Enjoy Solving the complex problem rather than jumping into new
-              Frameworks and Libraries
+              Want to know more about me?
             </div>
             <div className='space-y-6 text-gray-700'>
               <p>
